@@ -4,7 +4,7 @@ title: "Skilled Worker En"
 seo_title: "Skilled Worker Visa - UK IAA Authorised Immigration & Visa Agency - Imin2UK "
 seo_description: "We provide guidance on applying for a UK Skilled Worker visa. Get safe and accurate assistance from Imin2UK, an official study and immigration visa agency authorised by the UK Home Office."
 h1: "UK Work Visa Categories"
-date: 2026-02-02 00:30:00 +0000
+date: 2026-02-02T00:30:00Z
 tags:
   - post
   - en

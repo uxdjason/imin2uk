@@ -4,7 +4,7 @@ title: "Student Visa En"
 seo_title: "Student Visa - UK IAA Authorised Immigration & Visa Agency - Imin2UK "
 seo_description: "We provide guidance on applying for a UK student visa. Get safe and accurate assistance from Imin2UK, an official study and immigration visa agency authorised by the UK Home Office."
 h1: "UK Student Visa Categories"
-date: 2026-02-01 20:20:00 +0000
+date: 2026-02-01T20:20:00Z
 tags:
   - post
   - en

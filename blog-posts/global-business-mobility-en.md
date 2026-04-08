@@ -4,7 +4,7 @@ title: "Global Business Mobility En"
 seo_title: "GBM - UK IAA Authorised Immigration & Visa Agency - Imin2UK "
 seo_description: "We provide guidance on applying visa application under the Global Business Mobility (GBM) Scheme. Get safe and accurate assistance from Imin2UK, an official study and immigration visa agency authorised by the UK Home Office."
 h1: "GBM Scheme Categories"
-date: 2026-02-01 20:20:00 +0000
+date: 2026-02-01T20:20:00Z
 tags:
   - post
   - en

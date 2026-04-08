@@ -4,7 +4,7 @@ title: "Student Visa"
 seo_title: "학생 비자 - 영국 이민국 IAA 공식 허가 이민 비자 에이이전시 - 이민투유케이 Imin2UK"
 seo_description: "영국 학생 비자 신청에 대해 안내해 드립니다. 영국 내무부 (Home Office)의 허가를 받은 공식 이민 유학 비자 에이전시인 Imin2UK 이민투유케이를 통해 안전하고 정확한 도움을 받으세요."
 h1: "영국 학생 비자 카테고리"
-date: 2026-01-29 14:00:00 +0000
+date: 2026-01-29T14:00:00Z
 tags:
   - post
   - ko

@@ -128,10 +128,34 @@ document.addEventListener("DOMContentLoaded", function () {
       }
       // [예외 처리 2] ★ 핵심 수정 ★: "같은 페이지 내 섹션 이동" 감지
       // 도메인(Origin)이 같고 + 경로(Pathname)가 같고 + 해시(#)가 있는 경우
-      // -> 페이드 아웃 없이 그냥 스크롤만 이동해야 함.
+      // -> 페이드 아웃 없이 부드러운 스크롤 이동만 처리함.
+      let targetPath = targetUrl.pathname.replace(/\/index\.html$/, '').replace(/\/$/, '') || '/';
+      let currentPath = currentUrl.pathname.replace(/\/index\.html$/, '').replace(/\/$/, '') || '/';
+
       if (targetUrl.origin === currentUrl.origin &&
-        targetUrl.pathname === currentUrl.pathname &&
+        targetPath === currentPath &&
         targetUrl.hash !== '') {
+        
+        e.preventDefault(); // 브라우저 이동(새로고침) 막음
+        
+        try {
+          const targetElement = document.querySelector(targetUrl.hash);
+          if (targetElement) {
+            const header = document.querySelector('.nav_fixed') || document.querySelector('.nav_component');
+            const headerOffset = header ? header.offsetHeight : 0;
+            const elementPosition = targetElement.getBoundingClientRect().top;
+            const offsetPosition = elementPosition + window.scrollY - headerOffset;
+
+            window.scrollTo({
+              top: offsetPosition,
+              behavior: "smooth"
+            });
+            
+            history.pushState(null, null, targetUrl.hash);
+          }
+        } catch(err) {
+          console.warn("Invalid hash selector:", targetUrl.hash);
+        }
         return; // 여기서 함수 종료! (애니메이션 실행 안 함)
       }
       // [예외 처리 3] 완전히 동일한 페이지를 다시 클릭한 경우 (새로고침 방지용 선택사항)

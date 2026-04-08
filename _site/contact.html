@@ -153,8 +153,8 @@
                     <textarea placeholder="Example Text" maxlength="5000" id="Message" name="Message" data-name="Message" class="textarea w-input" required=""></textarea>
                     <div class="spacer-small"></div>
                     <div class="h-captcha" data-sitekey="50b2fe65-b00b-4b9e-ad62-3ba471098be2"></div>
-                    <div id="captcha-error" style="display:none; color:#ff0000; font-size:14px; margin-bottom:10px; font-weight:bold;">자동가입방지(hCaptcha)를 체크해 주세요.</div>
-                    <input type="submit" data-wait="Please wait..." class="button is-brand w-button" value="Submit">
+                    <div id="captcha-error" style="display:none; color:#ff0000; font-size:14px; margin-bottom:10px; font-weight:bold;">스팸방지(hCaptcha)를 체크해 주세요.</div>
+                    <input type="submit" data-wait="보내는 중..." class="button is-brand w-button" value="보내기">
                   </form>
                   <div class="success-message w-form-done">
                     <div>성공적으로 접수되었습니다. 빠른 시일 내에 답변 드리겠습니다.</div>
@@ -285,8 +285,11 @@
           if (captchaError) captchaError.style.display = "none";
         }
 
-        // 2. FormData 객체 생성
+        // 2. FormData 객체 생성 및 JSON 변환
         const formData = new FormData(form);
+        const object = Object.fromEntries(formData);
+        const json = JSON.stringify(object);
+        
         const submitBtn = form.querySelector('input[type="submit"]');
         const originalBtnText = submitBtn.value;
         const waitText = submitBtn.getAttribute("data-wait") || "Please wait...";
@@ -295,10 +298,14 @@
         submitBtn.value = waitText;
         submitBtn.disabled = true;
 
-        // 3. fetch로 Web3Forms에 전송
+        // 3. fetch로 Web3Forms에 전송 (JSON 형식)
         fetch("https://api.web3forms.com/submit", {
           method: "POST",
-          body: formData
+          headers: {
+            "Content-Type": "application/json",
+            "Accept": "application/json"
+          },
+          body: json
         })
         .then(async (response) => {
           if (response.status === 200) {

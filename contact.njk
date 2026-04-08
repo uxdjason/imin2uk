@@ -177,8 +177,11 @@
           if (captchaError) captchaError.style.display = "none";
         }
 
-        // 2. FormData 객체 생성
+        // 2. FormData 객체 생성 및 JSON 변환
         const formData = new FormData(form);
+        const object = Object.fromEntries(formData);
+        const json = JSON.stringify(object);
+        
         const submitBtn = form.querySelector('input[type="submit"]');
         const originalBtnText = submitBtn.value;
         const waitText = submitBtn.getAttribute("data-wait") || "Please wait...";
@@ -187,10 +190,14 @@
         submitBtn.value = waitText;
         submitBtn.disabled = true;
 
-        // 3. fetch로 Web3Forms에 전송
+        // 3. fetch로 Web3Forms에 전송 (JSON 형식)
         fetch("https://api.web3forms.com/submit", {
           method: "POST",
-          body: formData
+          headers: {
+            "Content-Type": "application/json",
+            "Accept": "application/json"
+          },
+          body: json
         })
         .then(async (response) => {
           if (response.status === 200) {

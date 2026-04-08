@@ -129,8 +129,8 @@ document.addEventListener("DOMContentLoaded", function () {
       // [예외 처리 2] ★ 핵심 수정 ★: "같은 페이지 내 섹션 이동" 감지
       // 도메인(Origin)이 같고 + 경로(Pathname)가 같고 + 해시(#)가 있는 경우
       // -> 페이드 아웃 없이 부드러운 스크롤 이동만 처리함.
-      let targetPath = targetUrl.pathname.replace(/\/index\.html$/, '').replace(/\/$/, '') || '/';
-      let currentPath = currentUrl.pathname.replace(/\/index\.html$/, '').replace(/\/$/, '') || '/';
+      let targetPath = targetUrl.pathname.replace(/\.html$/, '').replace(/\/index$/, '').replace(/\/$/, '') || '/';
+      let currentPath = currentUrl.pathname.replace(/\.html$/, '').replace(/\/index$/, '').replace(/\/$/, '') || '/';
 
       if (targetUrl.origin === currentUrl.origin &&
         targetPath === currentPath &&

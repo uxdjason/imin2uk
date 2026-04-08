@@ -1,0 +1,14 @@
+---
+slug: "student-visa"
+title: "Student Visa"
+seo_title: "학생 비자 - 영국 이민국 IAA 공식 허가 이민 비자 에이이전시 - 이민투유케이 Imin2UK"
+seo_description: "영국 학생 비자 신청에 대해 안내해 드립니다. 영국 내무부 (Home Office)의 허가를 받은 공식 이민 유학 비자 에이전시인 Imin2UK 이민투유케이를 통해 안전하고 정확한 도움을 받으세요."
+h1: "영국 학생 비자 카테고리"
+date: 2026-01-29 14:00:00 +0000
+tags:
+  - post
+  - ko
+language: ko
+---
+
+<p id="">2025년 현재 학업을 목적으로 하는 학생 비자에는 총 4가지가 있습니다: 어학연수를 위한 단기학생비자 (Short-term Student), 고등교육 기관에서 학사·석사·박사 과정을 밟기 위한 학생비자 (Student), 만 4세 이상 17세 이하 미성년자를 위한 어린이학생비자 (Child Student), 그리고 어린이학생비자 소지자 아동을 영국에서 돌보기 위한 부모를 위한 비자 (Parent of a Child Student) 등입니다.</p><figure id="" class="w-richtext-figure-type-image " data-rt-type="image" data-rt-align=""><div id=""><img id="" alt="" src="/images/697cbd5826006e9e63b13888_Imin2UK-home-service-6-1024x1024.webp" width="auto" height="auto" loading="auto"></div></figure><figure id="" class="w-richtext-figure-type-image " data-rt-type="image" data-rt-align=""><div id=""><img id="" alt="" src="/images/697cbd5826006e9e63b1388e_Imin2UK-home-service-7-1024x683.webp" width="auto" height="auto" loading="auto"></div></figure><h3 id="">단기학생비자 (Short-term Student)</h3><p id="">영국에서 6개월~11개월 동안 영어 과정만을 수강하려는 만 16세 이상 신청자가 대상입니다. 입학할 교육기관은 정부가 인증한 기관이어야 하며, 학업 종료 후 30일 이내 출국해야 합니다. 영국 내에 체류 중일 경우에는 신청할 수 없으며, 한국 등 영국 외 국가나 지역에서만 신청할 수 있습니다. 체류 기간 동안, 취업 및 공립학교에서의 학업은 허용되지 않습니다 .</p><p id="">2025년 현재 이민법 규정에 의하면, 단기학생비자로 어학연수를 마친 후 영국 내 대학이나 대학원 진학을 위해 학생비자를 신청할 수 없도록 되어있습니다. 영국 대학 등에서의 학업을 계획하고 있는 경우라면 주의가 필요합니다.</p><h3 id="">학생비자 (Student)</h3><p id="">대학, 대학원, 파운데이션 과정, 또는 사전 영어 과정 (pre-sessional English course)에 입학하려는 만 16세 이상 학생을 위한 비자입니다. 영국 내에서 합법적으로 학업을 시작하려면 공인 학생 스폰서로부터 학업 수락 확인서 (CAS: Confirmation of Acceptance for Studies)를 받아야 하며, 일정한 재정 자금과 영어 능력을 입증해야 합니다. 일부 대학원 과정이나 정부 후원 과정의 경우 배우자 및 자녀가 동반 비자를 신청할 수도 있습니다 .</p><h3 id="">어린이학생비자 (Child Student)</h3><p id="">영국 사립학교에서 초등·중등 교육을 받고자 하는 만 4세 이상 17세 이하 아동을 대상으로 합니다. 16세 이상 17세 학생은 학업 과정 수준에 따라 Student 비자와 Child Student 비자 중 선택할 수 있습니다. 위 학생비자와 마찬가지로 학업 수락 확인서(CAS), 충분한 재정 자금 등이 필요하며, 추가적으로 부모 동의서가 필요합니다.</p><p id="">영국 내 공립학교 (State School)에서의 학업은 불가능하며, 오로지 학비를 지불하는 사립학교 (Independent School)에서만 학업이 가능합니다.</p><h3 id="">Child Student 비자의 부모 (Parent of a Child Student)</h3><p id="">만 4세~11세의 자녀가 Child Student 비자로 영국 사립학교에 재학 중일 때, 부모 중 한 명이 자녀를 돌보기 위해 신청할 수 있는 비자입니다. 체류 기간은 자녀의 비자와 연동되며, 취업과 학업은 허용되지 않습니다. 이 카테고리의 비자를 신청하는 부모는 영국 외에 주요 거주지를 유지할 의무가 있습니다. 따라서 영국 내 체류를 위한 비용이나 기타 증빙 외에, 한국 내 원 거주지에 주민등록상 계속 거주하며 소유 혹은 전월세를 유지하고 있음을 추가적으로 증빙해야 합니다.</p><div data-rt-embed-type='true'><hr></div><p id="">대부분의 경우 영국 학생 비자 신청은 복잡하지 않고 명료한 편이지만, 의뢰인의 여러 상황에 따라 변수가 있을 수도 있고, 또한 최근 몇 년간 영국의 비자 및 이민 정책이 문턱을 높이는 방향으로 변화하고 있으므로, 가능한 영국 정부의 허가를 받은 전문가에게 의뢰하기를 권해드립니다.</p>

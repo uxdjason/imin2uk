@@ -1,0 +1,13 @@
+# Node.js 의존성 패키지 (용량이 매우 크므로 반드시 제외)
+node_modules/
+
+# 11ty 빌드 결과물 폴더 (Cloudflare가 알아서 빌드하므로 업로드 불필요)
+_site/
+
+# Mac OS 시스템 파일
+.DS_Store
+
+# 환경 변수 및 각종 로그 파일
+.env
+npm-debug.log*
+yarn-error.log*

@@ -146,6 +146,7 @@
                     <textarea placeholder="Example Text" maxlength="5000" id="Message" name="Message" data-name="Message" class="textarea w-input" required=""></textarea>
                     <div class="spacer-small"></div>
                     <div class="h-captcha" data-captcha="true"></div>
+                    <div id="captcha-error" style="display:none; color:#ff0000; font-size:14px; margin-bottom:10px; font-weight:bold;">Please complete the hCaptcha.</div>
                     <input type="submit" data-wait="Please wait..." class="button is-brand w-button" value="Submit">
                   </form>
                   <div class="success-message w-form-done">
@@ -260,13 +261,13 @@
 
         // 1. hCaptcha 체크 검증
         const hcaptchaResponse = form.querySelector('[name="h-captcha-response"]');
+        const captchaError = document.getElementById("captcha-error");
+        
         if (!hcaptchaResponse || hcaptchaResponse.value.trim() === "") {
-          const lang = document.documentElement.lang;
-          const msg = lang === "en-GB" 
-            ? "Please complete the hCaptcha." 
-            : "자동가입방지(hCaptcha)를 체크해 주세요.";
-          alert(msg);
+          if (captchaError) captchaError.style.display = "block";
           return;
+        } else {
+          if (captchaError) captchaError.style.display = "none";
         }
 
         // 2. FormData 객체 생성

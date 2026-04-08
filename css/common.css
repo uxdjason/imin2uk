@@ -25,6 +25,15 @@
     }
   }
 
+  /* 상단 내비게이션 바 메뉴 텍스트: Fluid 반응형 예외(고정 픽셀 크기) 처리 */
+  .nav_component .nav_menu_link,
+  .nav_component .dropdown-toggle .text-block,
+  .nav_component .dropdown-link,
+  .nav_component .button,
+  .nav_component .text-block-2 {
+    font-size: 16px !important;
+  }
+
   /* HTML과 Body의 높이 제한을 강제로 풉니다 */
   html,
   body {

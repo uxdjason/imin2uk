@@ -25,6 +25,18 @@ module.exports = function(eleventyConfig) {
       .replace('mm', mm);
   });
 
+  // Excerpt filter: strips HTML tags and returns first sentence from content
+  eleventyConfig.addFilter("excerpt", function(content) {
+    if (!content) return '';
+    // Remove all HTML tags
+    const text = content.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+    // Find first sentence ending with . ! or ? (at least 20 chars)
+    const match = text.match(/[^.!?]{20,}[.!?]/);
+    if (match) return match[0].trim();
+    // Fallback: first 120 chars
+    return text.substring(0, 120).trim() + (text.length > 120 ? '\u2026' : '');
+  });
+
   // Prevent clean URLs (folders) from breaking relative asset paths
   eleventyConfig.addGlobalData("permalink", () => {
     return (data) => `${data.page.filePathStem}.html`;

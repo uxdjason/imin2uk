@@ -52,7 +52,7 @@
             <p class="blog-list-subtitle">영국 유학·이민 비자에 관한 정보와 안내를 전해드립니다.</p>
             <div class="spacer-large"></div>
 
-            <ul class="blog-post-list">
+            <ul class="blog-post-list" id="blog-post-list">
               {% set koPosts = [] %}
               {% for post in collections.all %}
                 {% if post.data.language == 'ko' and post.data.slug %}
@@ -67,9 +67,7 @@
                     <time class="blog-post-list-date">{{ post.data.date | date('YYYY-MM-DD HH:mm') }}</time>
                   </div>
                   <h2 class="blog-post-list-title">{{ post.data.h1 }}</h2>
-                  {% if post.data.seo_description %}
-                  <p class="blog-post-list-excerpt">{{ post.data.seo_description }}</p>
-                  {% endif %}
+                  <p class="blog-post-list-excerpt">{{ post.templateContent | excerpt }}</p>
                   {% if post.data.tags %}
                   <div class="blog-post-list-tags">
                     {% for tag in post.data.tags %}
@@ -81,6 +79,9 @@
               </li>
               {% endfor %}
             </ul>
+
+            <!-- 페이지네이션 컨트롤 -->
+            <div class="blog-pagination" id="blog-pagination" aria-label="블로그 페이지 탐색"></div>
 
             <div class="spacer-large"></div>
             <div class="spacer-large"></div>
@@ -96,6 +97,65 @@
     crossorigin="anonymous"></script>
   <script src="js/webflow.js" type="text/javascript"></script>
   <script src="js/common.js" type="text/javascript"></script>
+  <script>
+    (function () {
+      const POSTS_PER_PAGE = 10;
+      const list = document.getElementById('blog-post-list');
+      const paginationEl = document.getElementById('blog-pagination');
+      const items = Array.from(list.querySelectorAll('.blog-post-list-item'));
+      const totalPages = Math.ceil(items.length / POSTS_PER_PAGE);
+      let currentPage = 1;
+
+      function showPage(page) {
+        currentPage = page;
+        const start = (page - 1) * POSTS_PER_PAGE;
+        const end = start + POSTS_PER_PAGE;
+        items.forEach(function (item, i) {
+          item.style.display = (i >= start && i < end) ? '' : 'none';
+        });
+        renderPagination();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+
+      function renderPagination() {
+        if (totalPages <= 1) { paginationEl.style.display = 'none'; return; }
+        paginationEl.innerHTML = '';
+
+        // 이전 버튼
+        const prev = document.createElement('button');
+        prev.className = 'blog-pagination-btn' + (currentPage === 1 ? ' is-disabled' : '');
+        prev.setAttribute('aria-label', '이전 페이지');
+        prev.disabled = currentPage === 1;
+        prev.textContent = '←';
+        prev.addEventListener('click', function () { if (currentPage > 1) showPage(currentPage - 1); });
+        paginationEl.appendChild(prev);
+
+        // 페이지 번호
+        for (var p = 1; p <= totalPages; p++) {
+          const btn = document.createElement('button');
+          btn.className = 'blog-pagination-btn' + (p === currentPage ? ' is-active' : '');
+          btn.textContent = p;
+          btn.setAttribute('aria-label', p + '페이지');
+          btn.setAttribute('aria-current', p === currentPage ? 'page' : 'false');
+          (function (pageNum) {
+            btn.addEventListener('click', function () { showPage(pageNum); });
+          })(p);
+          paginationEl.appendChild(btn);
+        }
+
+        // 다음 버튼
+        const next = document.createElement('button');
+        next.className = 'blog-pagination-btn' + (currentPage === totalPages ? ' is-disabled' : '');
+        next.setAttribute('aria-label', '다음 페이지');
+        next.disabled = currentPage === totalPages;
+        next.textContent = '→';
+        next.addEventListener('click', function () { if (currentPage < totalPages) showPage(currentPage + 1); });
+        paginationEl.appendChild(next);
+      }
+
+      if (items.length > 0) showPage(1);
+    })();
+  </script>
 </body>
 
 </html>

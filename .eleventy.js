@@ -3,8 +3,9 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("css");
   eleventyConfig.addPassthroughCopy("js");
   eleventyConfig.addPassthroughCopy("images");
-  // Also pass through fonts if they exist
+  // Also pass through fonts and robots.txt
   eleventyConfig.addPassthroughCopy("fonts");
+  eleventyConfig.addPassthroughCopy("robots.txt");
 
   // Date formatting filter
   // Usage: {{ date | date('YYYY-MM-DD') }} or {{ date | date('DD-MM-YYYY HH:mm') }}

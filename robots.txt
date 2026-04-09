@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://imin2uk.com/sitemap.xml

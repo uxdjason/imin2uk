@@ -264,28 +264,26 @@ a,
     display: flex;
     align-items: center;
     gap: 8px;
-    margin-top: 12px;
+    margin-top: 24px;
   }
 
   .blog-post-date {
-    font-size: 0.875rem;
-    color: #888;
+    font-size: 1rem;
+    color: #3e3939;
     letter-spacing: 0.02em;
   }
 
   /* ── 태그 클라우드 ── */
   .blog-tag-cloud {
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    padding-top: 24px;
     margin-top: 8px;
   }
 
   .blog-tag-cloud-label {
-    font-size: 0.8125rem;
-    font-weight: 600;
+    font-size: 1rem;
+    font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 0.08em;
-    color: #aaa;
+    color: #3e3939;
     margin-bottom: 12px;
   }
 
@@ -300,7 +298,7 @@ a,
     padding: 5px 12px;
     background-color: #f2f2f2;
     border-radius: 20px;
-    font-size: 0.8125rem;
+    font-size: 1rem;
     color: #444;
     line-height: 1.4;
     transition: background-color 0.2s ease, color 0.2s ease;

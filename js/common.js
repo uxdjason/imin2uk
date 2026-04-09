@@ -1,6 +1,6 @@
 const CONFIG = {
   koreanHomeSlug: '/',
-  englishHomeSlug: '/home-en',
+  englishHomeSlug: '/en',
   koreanBlogSlug: '/blog',
   englishBlogSlug: '/blog-en',
 
@@ -145,7 +145,7 @@ document.addEventListener("DOMContentLoaded", function () {
       redirectWithHash(newPath, true);
       return;
     }
-    // 영어 홈(/home-en)에 들어왔다면 -> 한국어 홈(/)으로
+    // 영어 홈(/en)에 들어왔다면 -> 한국어 홈(/)으로
     if (currentPath === CONFIG.englishHomeSlug || currentPath === CONFIG.englishHomeSlug + '/') {
       redirectWithHash(CONFIG.koreanHomeSlug, true);
       return;

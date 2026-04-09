@@ -1,8 +1,30 @@
 const CONFIG = {
-  orphanedEnglishPage: '/blog/hk-bno-visa-en',
   koreanHomeSlug: '/',
-  englishHomeSlug: '/home-en'
+  englishHomeSlug: '/home-en',
+  koreanBlogSlug: '/blog',
+  englishBlogSlug: '/blog-en',
+
+  // 영어 버전만 존재하는 블로그 글 slug 목록 (앞뒤 슬래시 없이 기재)
+  // 예: 'hk-bno-visa-en' 처럼 기재하면 /hk-bno-visa-en/ 도 자동 처리됨
+  orphanedEnglishPosts: [
+    'hk-bno-visa-en'
+  ],
+
+  // 한국어 버전만 존재하는 블로그 글 slug 목록 (앞뒤 슬래시 없이 기재)
+  orphanedKoreanPosts: [
+    // 예시: 'settlement' 만 있고 'settlement-en' 이 없을 경우
+  ]
 };
+
+/* [Helper] slug 기반 orphaned 체크
+   currentPath가 배열 내 slug와 일치하는지 확인 (/slug, /slug/ 모두 처리)
+*/
+function isOrphanedPost(currentPath, slugList) {
+  return slugList.some(function(slug) {
+    return currentPath === '/' + slug || currentPath === '/' + slug + '/';
+  });
+}
+
 /* [Helper] Hash 보존형 리디렉션 함수
    새로운 경로(newPath) 뒤에 원래 있던 해시(#)를 붙여서 이동시킵니다.
 */
@@ -22,10 +44,14 @@ window.langSwitchEn = function () {
   const currentPath = window.location.pathname;
   // 이미 영어 페이지거나 영어 홈이면 중단
   if (currentPath.endsWith('-en') || currentPath.endsWith('-en/') || (currentPath === CONFIG.englishHomeSlug)) return;
+  // 한국어만 존재하는 orphaned 글 -> 영어 블로그 목록으로
+  if (isOrphanedPost(currentPath, CONFIG.orphanedKoreanPosts)) {
+    redirectWithHash(CONFIG.englishBlogSlug);
+    return;
+  }
   if (currentPath === '/' || currentPath === '') {
     redirectWithHash(CONFIG.englishHomeSlug);
   } else {
-    // 슬래시가 있으면 그 안쪽에 -en 을 넣음
     let newPath = currentPath;
     if (newPath.endsWith('/')) {
       newPath = newPath.slice(0, -1) + '-en/';
@@ -38,9 +64,9 @@ window.langSwitchEn = function () {
 window.langSwitchKo = function () {
   localStorage.setItem('user_lang_pref', 'ko');
   const currentPath = window.location.pathname;
-  // Orphaned Page 체크
-  if (currentPath === CONFIG.orphanedEnglishPage || currentPath === CONFIG.orphanedEnglishPage + '/') {
-    redirectWithHash(CONFIG.koreanHomeSlug);
+  // 영어만 존재하는 orphaned 블로그 글 -> 한국어 블로그 목록으로
+  if (isOrphanedPost(currentPath, CONFIG.orphanedEnglishPosts)) {
+    redirectWithHash(CONFIG.koreanBlogSlug);
     return;
   }
   // 홈 화면 체크
@@ -84,9 +110,12 @@ document.addEventListener("DOMContentLoaded", function () {
   const isKorean = browserLang.toLowerCase().includes('ko');
   const currentPath = window.location.pathname;
   // Case A: 한국인이 아닌데 한국어 페이지인 경우 -> 영어로
+  // 단, 한국어만 있는 orphaned 글은 영어 블로그 목록으로
   if (!isKorean && !currentPath.endsWith('-en') && !currentPath.endsWith('-en/') && (currentPath !== CONFIG.englishHomeSlug) && (currentPath !== CONFIG.englishHomeSlug + '/')) {
     if (currentPath === '/' || currentPath === '') {
-      redirectWithHash(CONFIG.englishHomeSlug, true); // true = replace (뒤로가기 방지)
+      redirectWithHash(CONFIG.englishHomeSlug, true);
+    } else if (isOrphanedPost(currentPath, CONFIG.orphanedKoreanPosts)) {
+      redirectWithHash(CONFIG.englishBlogSlug, true);
     } else {
       let newPath = currentPath;
       if (newPath.endsWith('/')) {
@@ -96,13 +125,13 @@ document.addEventListener("DOMContentLoaded", function () {
       }
       redirectWithHash(newPath, true);
     }
-    return; // 리디렉션 발생 시 종료
+    return;
   }
   // --- 한국인 방문자 처리 로직 (Case B & C) ---
   if (isKorean) {
-    // Case B: Orphaned English Page인 경우 -> 한국어 홈으로
-    if (currentPath === CONFIG.orphanedEnglishPage || currentPath === CONFIG.orphanedEnglishPage + '/') {
-      redirectWithHash(CONFIG.koreanHomeSlug, true);
+    // Case B: 영어만 존재하는 orphaned 글 -> 한국어 블로그 목록으로
+    if (isOrphanedPost(currentPath, CONFIG.orphanedEnglishPosts)) {
+      redirectWithHash(CONFIG.koreanBlogSlug, true);
       return;
     }
     // Case C: 그 외 일반 영어 페이지인 경우 -> 한국어 페이지로 리디렉션
@@ -116,7 +145,7 @@ document.addEventListener("DOMContentLoaded", function () {
       redirectWithHash(newPath, true);
       return;
     }
-    // (Case C 추가) 만약 영어 홈(/home-en)에 들어왔다면 -> 한국어 홈(/)으로
+    // 영어 홈(/home-en)에 들어왔다면 -> 한국어 홈(/)으로
     if (currentPath === CONFIG.englishHomeSlug || currentPath === CONFIG.englishHomeSlug + '/') {
       redirectWithHash(CONFIG.koreanHomeSlug, true);
       return;

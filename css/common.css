@@ -239,3 +239,12 @@ a,
     padding-right: 0rem !important;
     padding-left: 0rem !important;
   }
+
+  hr {
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+
+  p {
+    line-height: 1.8;
+  }

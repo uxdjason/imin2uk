@@ -21,32 +21,41 @@ window.langSwitchEn = function () {
   localStorage.setItem('user_lang_pref', 'en');
   const currentPath = window.location.pathname;
   // 이미 영어 페이지거나 영어 홈이면 중단
-  if (currentPath.endsWith('-en') || (currentPath === CONFIG.englishHomeSlug)) return;
+  if (currentPath.endsWith('-en') || currentPath.endsWith('-en/') || (currentPath === CONFIG.englishHomeSlug)) return;
   if (currentPath === '/' || currentPath === '') {
     redirectWithHash(CONFIG.englishHomeSlug);
   } else {
-    // 일반 페이지: 뒤에 -en 붙이기 + Hash 유지
-    redirectWithHash(currentPath + '-en');
+    // 슬래시가 있으면 그 안쪽에 -en 을 넣음
+    let newPath = currentPath;
+    if (newPath.endsWith('/')) {
+      newPath = newPath.slice(0, -1) + '-en/';
+    } else {
+      newPath = newPath + '-en';
+    }
+    redirectWithHash(newPath);
   }
 };
 window.langSwitchKo = function () {
   localStorage.setItem('user_lang_pref', 'ko');
   const currentPath = window.location.pathname;
   // Orphaned Page 체크
-  if (currentPath === CONFIG.orphanedEnglishPage) {
+  if (currentPath === CONFIG.orphanedEnglishPage || currentPath === CONFIG.orphanedEnglishPage + '/') {
     redirectWithHash(CONFIG.koreanHomeSlug);
     return;
   }
   // 홈 화면 체크
   if (currentPath === '/') return;
   // 영어 홈 체크
-  if (currentPath === CONFIG.englishHomeSlug) {
+  if (currentPath === CONFIG.englishHomeSlug || currentPath === CONFIG.englishHomeSlug + '/') {
     redirectWithHash(CONFIG.koreanHomeSlug);
     return;
   }
-  // 일반 영어 페이지 체크 (-en 제거)
+  // 일반 영어 페이지 체크 (-en 또는 -en/ 제거)
   if (currentPath.endsWith('-en')) {
     const newPath = currentPath.substring(0, currentPath.length - 3);
+    redirectWithHash(newPath);
+  } else if (currentPath.endsWith('-en/')) {
+    const newPath = currentPath.substring(0, currentPath.length - 4) + '/';
     redirectWithHash(newPath);
   }
 };
@@ -75,29 +84,40 @@ document.addEventListener("DOMContentLoaded", function () {
   const isKorean = browserLang.toLowerCase().includes('ko');
   const currentPath = window.location.pathname;
   // Case A: 한국인이 아닌데 한국어 페이지인 경우 -> 영어로
-  if (!isKorean && !currentPath.endsWith('-en') && (currentPath !== CONFIG.englishHomeSlug)) {
-    if (currentPath === '/') {
+  if (!isKorean && !currentPath.endsWith('-en') && !currentPath.endsWith('-en/') && (currentPath !== CONFIG.englishHomeSlug) && (currentPath !== CONFIG.englishHomeSlug + '/')) {
+    if (currentPath === '/' || currentPath === '') {
       redirectWithHash(CONFIG.englishHomeSlug, true); // true = replace (뒤로가기 방지)
     } else {
-      redirectWithHash(currentPath + '-en', true);
+      let newPath = currentPath;
+      if (newPath.endsWith('/')) {
+        newPath = newPath.slice(0, -1) + '-en/';
+      } else {
+        newPath = newPath + '-en';
+      }
+      redirectWithHash(newPath, true);
     }
     return; // 리디렉션 발생 시 종료
   }
   // --- 한국인 방문자 처리 로직 (Case B & C) ---
   if (isKorean) {
     // Case B: Orphaned English Page인 경우 -> 한국어 홈으로
-    if (currentPath === CONFIG.orphanedEnglishPage) {
+    if (currentPath === CONFIG.orphanedEnglishPage || currentPath === CONFIG.orphanedEnglishPage + '/') {
       redirectWithHash(CONFIG.koreanHomeSlug, true);
       return;
     }
     // Case C: 그 외 일반 영어 페이지인 경우 -> 한국어 페이지로 리디렉션
-    if (currentPath.endsWith('-en') && currentPath !== CONFIG.englishHomeSlug) {
-      const newPath = currentPath.substring(0, currentPath.length - 3);
+    if ((currentPath.endsWith('-en') || currentPath.endsWith('-en/')) && currentPath !== CONFIG.englishHomeSlug && currentPath !== CONFIG.englishHomeSlug + '/') {
+      let newPath;
+      if (currentPath.endsWith('-en/')) {
+        newPath = currentPath.substring(0, currentPath.length - 4) + '/';
+      } else {
+        newPath = currentPath.substring(0, currentPath.length - 3);
+      }
       redirectWithHash(newPath, true);
       return;
     }
     // (Case C 추가) 만약 영어 홈(/home-en)에 들어왔다면 -> 한국어 홈(/)으로
-    if (currentPath === CONFIG.englishHomeSlug) {
+    if (currentPath === CONFIG.englishHomeSlug || currentPath === CONFIG.englishHomeSlug + '/') {
       redirectWithHash(CONFIG.koreanHomeSlug, true);
       return;
     }

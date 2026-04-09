@@ -241,10 +241,20 @@ a,
   }
 
   hr {
-    margin-top: 32px;
-    margin-bottom: 32px;
+    margin-top: 48px;
+    margin-bottom: 48px;
   }
 
   p {
-    line-height: 1.8;
+    line-height: 1.6;
+  }
+
+  .blog-body-image {
+    width: 100%;
+    max-width: 100%;
+    max-height: 480px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 32px 0;
+    display: block;
   }

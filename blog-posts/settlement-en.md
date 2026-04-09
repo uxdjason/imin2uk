@@ -4,10 +4,16 @@ title: "Settlement En"
 seo_title: "ILR & Settlement - UK IAA Authorised Immigration & Visa Agency - Imin2UK "
 seo_description: "We provide guidance on applying for UK Indefinite Leave to Remain (ILR) and British Citizenship. Get safe and accurate assistance from Imin2UK, an official study and immigration visa agency authorised by the UK Home Office."
 h1: "UK Settlement & Citizenship"
-date: 2026-02-01T20:40:00Z
+date: 2025-12-28T15:57:00Z
 tags:
-  - post
-  - en
+  - "ILR"
+  - "Indefinite Leave to Remain"
+  - "UK Settlement"
+  - "British Citizenship"
+  - "UK Naturalisation"
+  - "UK Immigration"
+  - "Long-term Residence"
+  - "UK Visa Agency"
 language: en
 ---
 

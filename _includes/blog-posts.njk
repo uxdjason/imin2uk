@@ -27,7 +27,7 @@
   "headline": "{{ h1 }}",
   "name": "{{ title }}",
   "description": "{{ seo_description }}",
-  "url": "https://imin2uk.com/blog-posts/{{ slug }}",
+  "url": "https://imin2uk.com/{{ slug }}/",
   "datePublished": "{{ date }}",
   "inLanguage": "{% if language == 'en' %}en-GB{% else %}ko-KR{% endif %}",
   "author": {
@@ -60,6 +60,17 @@
           <div class="container-medium">
             <div class="spacer-large"></div>
             <h1 class="heading-style-h1 is-blog-heading">{{ h1 }}</h1>
+            <div class="blog-post-meta">
+              {% if language == 'en' %}
+                <time class="blog-post-date" datetime="{{ date | date('YYYY-MM-DD') }}">
+                  {{ date | date('DD-MM-YYYY HH:mm') }}
+                </time>
+              {% else %}
+                <time class="blog-post-date" datetime="{{ date | date('YYYY-MM-DD') }}">
+                  {{ date | date('YYYY-MM-DD HH:mm') }}
+                </time>
+              {% endif %}
+            </div>
             <div class="spacer-large"></div>
           </div>
         </div>
@@ -71,6 +82,16 @@
               {{ content | safe }}
             </div>
             <div class="spacer-large"></div>
+            {% if tags and tags.length %}
+            <div class="blog-tag-cloud">
+              <div class="blog-tag-cloud-label">{% if language == 'en' %}Tags{% else %}태그{% endif %}</div>
+              <div class="blog-tag-list">
+                {% for tag in tags %}
+                <span class="blog-tag">{{ tag }}</span>
+                {% endfor %}
+              </div>
+            </div>
+            {% endif %}
             <div class="spacer-large"></div>
           </div>
         </div>

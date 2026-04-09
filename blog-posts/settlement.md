@@ -4,10 +4,17 @@ title: "Settlement"
 seo_title: "영주권·시민권 - 영국 이민국 IAA 공식 허가 이민 비자 에이이전시 - 이민투유케이 Imin2UK"
 seo_description: "영국 영주권 (ILR: Indefinite Leave to Remain) 및 시민권 신청에 대해 안내해 드립니다. 영국 내무부 (Home Office)의 허가를 받은 공식 이민 유학 비자 에이전시인 Imin2UK 이민투유케이를 통해 안전하고 정확한 도움을 받으세요."
 h1: "영국 영주권·시민권"
-date: 2026-02-01T11:10:00Z
+date: 2025-12-28T15:50:00Z
 tags:
-  - post
-  - ko
+  - "영주권"
+  - "ILR"
+  - "Indefinite Leave to Remain"
+  - "영국 시민권"
+  - "영국 정착"
+  - "영국 이민"
+  - "귀화"
+  - "영국 비자 에이전시"
+  - "장기 거주"
 language: ko
 ---
 

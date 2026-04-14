@@ -1,6 +1,6 @@
 ---
 slug: "youth-mobility-scheme"
-title: "영국 워킹홀리데이 Youth Mobility Scheme
+title: "영국 워킹홀리데이 Youth Mobility Scheme"
 seo_title: "워킹홀리데이 (YMS) 비자 - 영국 이민국 IAA 공식 허가 이민 비자 에이전시 - 이민투유케이 Imin2UK"
 seo_description: "영국 워킹홀리데이 (Youth Mobility Scheme) 비자 신청 방법, 자격 요건, 필요 서류, 수수료 등을 상세히 안내합니다. 영국 내무부 (Home Office)의 허가를 받은 공식 이민 비자 에이전시 Imin2UK 이민투유케이."
 h1: "영국 워킹홀리데이 (Youth Mobility Scheme) 비자"

@@ -1,5 +1,5 @@
 ---
-slug: "high-potential-individual-visa-en"
+slug: "high-potential-individual-en"
 title: "UK High Potential Individual (HPI) Visa"
 seo_title: "High Potential Individual (HPI) Visa - UK IAA Authorised Immigration & Visa Agency - Imin2UK"
 seo_description: "A complete guide to the UK High Potential Individual (HPI) visa for graduates of top global universities, including eligibility, university lists, fees, and application process. Get expert assistance from Imin2UK."

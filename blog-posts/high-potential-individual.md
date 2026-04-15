@@ -1,5 +1,5 @@
 ---
-slug: "high-potential-individual-visa"
+slug: "high-potential-individual"
 title: "영국 HPI (High Potential Individual) 비자"
 seo_title: "HPI (High Potential Individual) 비자  - 영국 이민국 IAA 공식 허가 이민 비자 에이전시 - 이민투유케이 Imin2UK"
 seo_description: "전세계 명문대학 졸업자를 위한 영국 HPI (High Potential Individual) 비자 신청 방법, 자격 대학 목록, 필요 서류, 수수료 등을 상세히 안내합니다. 영국 내무부 (Home Office)의 허가를 받은 공식 이민 비자 에이전시 Imin2UK 이민투유케이."

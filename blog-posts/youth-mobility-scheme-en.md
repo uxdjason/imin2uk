@@ -4,7 +4,7 @@ title: "UK Youth Mobility Scheme"
 seo_title: "Youth Mobility Scheme (YMS) Visa - UK IAA Authorised Immigration & Visa Agency - Imin2UK"
 seo_description: "A complete guide to the UK Youth Mobility Scheme (YMS) visa, including eligibility, required documents, fees, and step-by-step application process. Get expert assistance from Imin2UK, an immigration agency authorised by the UK Home Office."
 h1: "UK Youth Mobility Scheme Visa"
-date: 2026-04-14T10:37:00Z
+date: 2026-02-14T10:37:00Z
 tags:
   - "Youth Mobility Scheme"
   - "YMS Visa"

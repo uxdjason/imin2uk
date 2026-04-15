@@ -4,7 +4,7 @@ title: "영국 졸업생 비자 Graduate Visa"
 seo_title: "졸업생 비자 (Graduate Visa) - 영국 이민국 IAA 공식 허가 이민 비자 에이전시 - 이민투유케이 Imin2UK"
 seo_description: "영국 대학 졸업 후 신청할 수 있는 졸업생 비자 (Graduate Visa) 신청 방법, 자격 요건, 필요 서류, 수수료 등을 상세히 안내합니다. 영국 내무부 (Home Office)의 허가를 받은 공식 이민 비자 에이전시 Imin2UK 이민투유케이."
 h1: "영국 졸업생 비자 Graduate Visa"
-date: 2026-04-15T11:29:00Z
+date: 2026-02-15T11:29:00Z
 tags:
   - "졸업생 비자"
   - "Graduate Visa"

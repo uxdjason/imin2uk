@@ -4,7 +4,7 @@ title: "UK Graduate Visa"
 seo_title: "Graduate Visa - UK IAA Authorised Immigration & Visa Agency - Imin2UK"
 seo_description: "A complete guide to the UK Graduate Visa, including eligibility, application timing, fees, and step-by-step process. Get expert assistance from Imin2UK, an immigration agency authorised by the UK Home Office."
 h1: "UK Graduate Visa"
-date: 2026-04-15T11:40:00Z
+date: 2026-02-15T11:40:00Z
 tags:
   - "Graduate Visa"
   - "UK Study Abroad"

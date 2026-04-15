@@ -51,7 +51,7 @@ language: en
 
 <h3>1. Job Seekers and Juniors Under 26</h3>
 
-<p>Breaking into the UK job market directly from overseas can be a daunting task for those with limited experience. In this case, we highly recommend utilizing the <strong>Youth Mobility Scheme (YMS) Visa</strong>, commonly known as a working holiday.</p>
+<p>Breaking into the UK job market directly from overseas can be a daunting task for those with limited experience. In this case, we highly recommend utilizing the <strong><a href="/youth-mobility-scheme-en">Youth Mobility Scheme (YMS) Visa</a></strong>, commonly known as a working holiday.</p>
 
 <p>This visa allows you to work freely in the UK for up to 2 years without needing a sponsor or meeting a minimum salary requirement. By gaining local experience, you can improve your CV and understand the UK market better. Transitioning to a Skilled Worker Visa by moving to a sponsoring company after building this local experience is the most realistic path. Even if you switch jobs after 2 years, as long as you are still under 26, you will continue to benefit from the lower New entrant salary threshold.</p>
 

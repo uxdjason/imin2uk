@@ -5,3 +5,5 @@ User-agent: Yeti
 Allow: /
 
 Sitemap: https://imin2uk.com/sitemap.xml
+
+#DaumWebMasterTool:db0485527eb2c50ccc638469386ded2716332be1c4964de226ac4ff91020c737:lnJIfW6J3SEu/tDeE4/ZJg==

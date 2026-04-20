@@ -3,9 +3,28 @@ permalink: /sitemap.xml
 eleventyExcludeFromCollections: true
 ---
 <?xml version="1.0" encoding="utf-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <!-- Korean homepage -->
+  <url>
+    <loc>https://imin2uk.com/</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://imin2uk.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imin2uk.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imin2uk.com/"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <!-- English homepage -->
+  <url>
+    <loc>https://imin2uk.com/en/</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://imin2uk.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imin2uk.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imin2uk.com/"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
 {%- for page in collections.all %}
-  {%- if page.url %}
+  {%- if page.url and page.url != "/" and page.url != "/en/" %}
   <url>
     <loc>https://imin2uk.com{{ page.url }}</loc>
     <lastmod>{{ page.date.toISOString() }}</lastmod>

@@ -6,6 +6,8 @@ module.exports = function(eleventyConfig) {
   // Also pass through fonts and robots.txt
   eleventyConfig.addPassthroughCopy("fonts");
   eleventyConfig.addPassthroughCopy("robots.txt");
+  // Pass through sitemap XSL stylesheet
+  eleventyConfig.addPassthroughCopy("sitemap.xsl");
 
   // Date formatting filter
   // Usage: {{ date | date('YYYY-MM-DD') }} or {{ date | date('DD-MM-YYYY HH:mm') }}

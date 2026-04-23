@@ -104,6 +104,11 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
   // 2. 자동 리디렉션 로직
+  // 봇/크롤러 감지: 검색엔진 봇이면 리다이렉트하지 않음
+  // (Google이 /에서 /en/으로 리다이렉트되면 /en/을 중복 페이지로 처리함)
+  const botPattern = /googlebot|bingbot|yeti|daumoa|baiduspider|twitterbot|facebookexternalhit|LinkedInBot|Applebot|Slurp/i;
+  if (botPattern.test(navigator.userAgent)) return;
+
   const userPref = localStorage.getItem('user_lang_pref');
   if (userPref) return;
   const browserLang = navigator.language || navigator.userLanguage;

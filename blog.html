@@ -115,13 +115,14 @@ permalink: /blog/
       const POSTS_PER_PAGE = 10;
       const list = document.getElementById('blog-post-list');
       const paginationEl = document.getElementById('blog-pagination');
+      if (!list || !paginationEl) return;
       const items = Array.from(list.querySelectorAll('.blog-post-list-item'));
       const totalPages = Math.ceil(items.length / POSTS_PER_PAGE);
       let currentPage = 1;
 
       function showPage(page) {
-        currentPage = page;
-        const start = (page - 1) * POSTS_PER_PAGE;
+        currentPage = Math.max(1, Math.min(page, totalPages));
+        const start = (currentPage - 1) * POSTS_PER_PAGE;
         const end = start + POSTS_PER_PAGE;
         items.forEach(function (item, i) {
           item.style.display = (i >= start && i < end) ? '' : 'none';
@@ -130,40 +131,94 @@ permalink: /blog/
         window.scrollTo({ top: 0, behavior: 'smooth' });
       }
 
+      function makeBtn(label, ariaLabel, onClick, extraClass, isCurrent) {
+        const btn = document.createElement('button');
+        btn.className = 'blog-pagination-btn' + (extraClass ? ' ' + extraClass : '');
+        btn.innerHTML = label;
+        btn.setAttribute('aria-label', ariaLabel);
+        if (isCurrent) btn.setAttribute('aria-current', 'page');
+        if (extraClass === 'is-disabled') {
+          btn.disabled = true;
+        } else {
+          btn.addEventListener('click', onClick);
+        }
+        return btn;
+      }
+
       function renderPagination() {
         if (totalPages <= 1) { paginationEl.style.display = 'none'; return; }
+        paginationEl.style.display = 'flex';
         paginationEl.innerHTML = '';
 
-        // 이전 버튼
-        const prev = document.createElement('button');
-        prev.className = 'blog-pagination-btn' + (currentPage === 1 ? ' is-disabled' : '');
-        prev.setAttribute('aria-label', '이전 페이지');
-        prev.disabled = currentPage === 1;
-        prev.textContent = '←';
-        prev.addEventListener('click', function () { if (currentPage > 1) showPage(currentPage - 1); });
-        paginationEl.appendChild(prev);
+        const isMobile = window.innerWidth < 480;
+        const windowSize = isMobile ? 3 : 5;
 
-        // 페이지 번호
-        for (var p = 1; p <= totalPages; p++) {
-          const btn = document.createElement('button');
-          btn.className = 'blog-pagination-btn' + (p === currentPage ? ' is-active' : '');
-          btn.textContent = p;
-          btn.setAttribute('aria-label', p + '페이지');
-          btn.setAttribute('aria-current', p === currentPage ? 'page' : 'false');
-          (function (pageNum) {
-            btn.addEventListener('click', function () { showPage(pageNum); });
-          })(p);
-          paginationEl.appendChild(btn);
+        // 처음 페이지
+        paginationEl.appendChild(makeBtn(
+          '&#8676;', '가장 최근 글',
+          function () { showPage(1); },
+          currentPage === 1 ? 'is-disabled' : ''
+        ));
+
+        // 이전 페이지
+        paginationEl.appendChild(makeBtn(
+          '&#8592;', '이전 페이지',
+          function () { showPage(currentPage - 1); },
+          currentPage === 1 ? 'is-disabled' : ''
+        ));
+
+        // 슬라이딩 윈도우 페이지 번호
+        let startPage = Math.max(1, currentPage - Math.floor(windowSize / 2));
+        let endPage = startPage + windowSize - 1;
+        if (endPage > totalPages) {
+          endPage = totalPages;
+          startPage = Math.max(1, endPage - windowSize + 1);
         }
 
-        // 다음 버튼
-        const next = document.createElement('button');
-        next.className = 'blog-pagination-btn' + (currentPage === totalPages ? ' is-disabled' : '');
-        next.setAttribute('aria-label', '다음 페이지');
-        next.disabled = currentPage === totalPages;
-        next.textContent = '→';
-        next.addEventListener('click', function () { if (currentPage < totalPages) showPage(currentPage + 1); });
-        paginationEl.appendChild(next);
+        if (startPage > 1) {
+          paginationEl.appendChild(makeBtn('1', '1페이지', function () { showPage(1); }, ''));
+          if (startPage > 2) {
+            const dots = document.createElement('span');
+            dots.className = 'blog-pagination-dots';
+            dots.textContent = '…';
+            paginationEl.appendChild(dots);
+          }
+        }
+
+        for (var p = startPage; p <= endPage; p++) {
+          (function (pageNum) {
+            paginationEl.appendChild(makeBtn(
+              pageNum, pageNum + '페이지',
+              function () { showPage(pageNum); },
+              pageNum === currentPage ? 'is-active' : '',
+              pageNum === currentPage
+            ));
+          })(p);
+        }
+
+        if (endPage < totalPages) {
+          if (endPage < totalPages - 1) {
+            const dots = document.createElement('span');
+            dots.className = 'blog-pagination-dots';
+            dots.textContent = '…';
+            paginationEl.appendChild(dots);
+          }
+          paginationEl.appendChild(makeBtn(totalPages, totalPages + '페이지', function () { showPage(totalPages); }, ''));
+        }
+
+        // 다음 페이지
+        paginationEl.appendChild(makeBtn(
+          '&#8594;', '다음 페이지',
+          function () { showPage(currentPage + 1); },
+          currentPage === totalPages ? 'is-disabled' : ''
+        ));
+
+        // 마지막 페이지
+        paginationEl.appendChild(makeBtn(
+          '&#8677;', '가장 오래된 글',
+          function () { showPage(totalPages); },
+          currentPage === totalPages ? 'is-disabled' : ''
+        ));
       }
 
       if (items.length > 0) showPage(1);

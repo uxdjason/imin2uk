@@ -103,59 +103,7 @@ document.addEventListener("DOMContentLoaded", function () {
       langSwitchKo();
     });
   }
-  // 2. 자동 리디렉션 로직
-  // 봇/크롤러 감지: 검색엔진 봇이면 리다이렉트하지 않음
-  // (Google이 /에서 /en/으로 리다이렉트되면 /en/을 중복 페이지로 처리함)
-  const botPattern = /googlebot|bingbot|yeti|daumoa|baiduspider|twitterbot|facebookexternalhit|LinkedInBot|Applebot|Slurp/i;
-  if (botPattern.test(navigator.userAgent)) return;
-
-  const userPref = localStorage.getItem('user_lang_pref');
-  if (userPref) return;
-  const browserLang = navigator.language || navigator.userLanguage;
-  const isKorean = browserLang.toLowerCase().includes('ko');
-  const currentPath = window.location.pathname;
-  // Case A: 한국인이 아닌데 한국어 페이지인 경우 -> 영어로
-  // 단, 한국어만 있는 orphaned 글은 영어 블로그 목록으로
-  if (!isKorean && !currentPath.endsWith('-en') && !currentPath.endsWith('-en/') && (currentPath !== CONFIG.englishHomeSlug) && (currentPath !== CONFIG.englishHomeSlug + '/')) {
-    if (currentPath === '/' || currentPath === '') {
-      redirectWithHash(CONFIG.englishHomeSlug, true);
-    } else if (isOrphanedPost(currentPath, CONFIG.orphanedKoreanPosts)) {
-      redirectWithHash(CONFIG.englishBlogSlug, true);
-    } else {
-      let newPath = currentPath;
-      if (newPath.endsWith('/')) {
-        newPath = newPath.slice(0, -1) + '-en/';
-      } else {
-        newPath = newPath + '-en';
-      }
-      redirectWithHash(newPath, true);
-    }
-    return;
-  }
-  // --- 한국인 방문자 처리 로직 (Case B & C) ---
-  if (isKorean) {
-    // Case B: 영어만 존재하는 orphaned 글 -> 한국어 블로그 목록으로
-    if (isOrphanedPost(currentPath, CONFIG.orphanedEnglishPosts)) {
-      redirectWithHash(CONFIG.koreanBlogSlug, true);
-      return;
-    }
-    // Case C: 그 외 일반 영어 페이지인 경우 -> 한국어 페이지로 리디렉션
-    if ((currentPath.endsWith('-en') || currentPath.endsWith('-en/')) && currentPath !== CONFIG.englishHomeSlug && currentPath !== CONFIG.englishHomeSlug + '/') {
-      let newPath;
-      if (currentPath.endsWith('-en/')) {
-        newPath = currentPath.substring(0, currentPath.length - 4) + '/';
-      } else {
-        newPath = currentPath.substring(0, currentPath.length - 3);
-      }
-      redirectWithHash(newPath, true);
-      return;
-    }
-    // 영어 홈(/en)에 들어왔다면 -> 한국어 홈(/)으로
-    if (currentPath === CONFIG.englishHomeSlug || currentPath === CONFIG.englishHomeSlug + '/') {
-      redirectWithHash(CONFIG.koreanHomeSlug, true);
-      return;
-    }
-  }
+  // 2. 자동 리디렉션 로직 (제거됨 - SEO 개선 및 GSC 'Page with redirect' 방지)
 });
 
 document.addEventListener("DOMContentLoaded", function () {

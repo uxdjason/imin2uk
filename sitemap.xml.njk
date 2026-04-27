@@ -6,7 +6,8 @@ eleventyExcludeFromCollections: true
 <?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <!-- Korean homepage -->
+
+  <!-- ===== 홈페이지 (hreflang 포함) ===== -->
   <url>
     <loc>https://imin2uk.com/</loc>
     <xhtml:link rel="alternate" hreflang="ko" href="https://imin2uk.com/"/>
@@ -15,7 +16,6 @@ eleventyExcludeFromCollections: true
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
-  <!-- English homepage -->
   <url>
     <loc>https://imin2uk.com/en/</loc>
     <xhtml:link rel="alternate" hreflang="ko" href="https://imin2uk.com/"/>
@@ -24,11 +24,69 @@ eleventyExcludeFromCollections: true
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
+
+  <!-- ===== 블로그 목록 (hreflang 포함) ===== -->
+  <url>
+    <loc>https://imin2uk.com/blog/</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://imin2uk.com/blog/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imin2uk.com/blog-en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imin2uk.com/blog/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imin2uk.com/blog-en/</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://imin2uk.com/blog/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imin2uk.com/blog-en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imin2uk.com/blog/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ===== 문의하기 ===== -->
+  <url>
+    <loc>https://imin2uk.com/contact/</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://imin2uk.com/contact/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imin2uk.com/contact-en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imin2uk.com/contact/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://imin2uk.com/contact-en/</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://imin2uk.com/contact/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imin2uk.com/contact-en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imin2uk.com/contact/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- ===== 개인정보처리방침 ===== -->
+  <url>
+    <loc>https://imin2uk.com/privacy-policy/</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://imin2uk.com/privacy-policy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imin2uk.com/privacy-policy-en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imin2uk.com/privacy-policy/"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://imin2uk.com/privacy-policy-en/</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://imin2uk.com/privacy-policy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imin2uk.com/privacy-policy-en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imin2uk.com/privacy-policy/"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <!-- ===== 블로그 포스트 (Eleventy 컬렉션에서 자동 생성) ===== -->
 {%- for page in collections.all %}
-  {%- if page.url and page.url != "/" and page.url != "/en/" %}
+  {%- if page.url and page.data.slug %}
   <url>
     <loc>https://imin2uk.com{{ page.url }}</loc>
     <lastmod>{{ page.date.toISOString() }}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   {%- endif %}
 {%- endfor %}

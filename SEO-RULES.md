@@ -1,7 +1,7 @@
 # Imin2UK SEO Rules & Checklist
 > **이 문서는 신규 페이지 작업 시 반드시 참조해야 합니다.**
 > AI 코딩 툴(Antigravity, Cursor 등)이 페이지를 생성·수정할 때 이 규칙을 따라야 합니다.
-> Last updated: 2026-04-20
+> Last updated: 2026-04-27
 
 ---
 
@@ -167,6 +167,16 @@ language: en
 no_ko_page: true   # 이 플래그가 있으면 ko hreflang 생략됨
 ```
 
+**한국어 포스트인데 영어 대응 포스트가 없는 경우:**
+```yaml
+language: ko
+no_en_page: true   # 이 플래그가 있으면 en hreflang 생략됨
+```
+
+> ⚠️ **중요**: `no_en_page` 또는 `no_ko_page` 없이 대응 페이지가 존재하지 않는 경우,
+> Google은 `hreflang` 대상 URL을 크롤하다가 404를 만나 "Alternative page with proper canonical tag"
+> 오류를 발생시킵니다. 반드시 플래그를 사용하거나 대응 포스트를 작성하세요.
+
 ---
 
 ## 📄 신규 `.njk` / `.html` 페이지 전체 헤드 템플릿
@@ -214,7 +224,8 @@ no_ko_page: true   # 이 플래그가 있으면 ko hreflang 생략됨
 파일: `sitemap.xml.njk`
 
 - 홈페이지 두 버전(`/`, `/en/`)은 **반드시 `<xhtml:link>` alternate 포함**
-- 기타 페이지는 `<loc>` + `<lastmod>`만으로 충분
+- `/blog/`, `/blog-en/`, `/contact/`, `/contact-en/`, `/privacy-policy/`, `/privacy-policy-en/`는 **명시적으로 선언** (Eleventy 컬렉션 루프에 포함 안 될 수 있음)
+- 블로그 포스트는 `page.data.slug`가 있는 경우에만 루프에 포함
 - `xmlns:xhtml="http://www.w3.org/1999/xhtml"` 네임스페이스 필수
 
 배포 후 Google Search Console에서 사이트맵 재제출 필요:

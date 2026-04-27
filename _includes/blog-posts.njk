@@ -10,14 +10,20 @@
   <meta content="{{ seo_description }}" property="og:description">
   <meta content="{{ seo_title }}" property="twitter:title">
   <meta content="{{ seo_description }}" property="twitter:description">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
   <meta content="summary_large_image" name="twitter:card">
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <link rel="canonical" href="https://imin2uk.com/{{ slug }}/">
   {% if no_ko_page %}
+  {# 한국어 대응 페이지 없음 — en만 선언, x-default도 자기 자신 #}
   <link rel="alternate" hreflang="en" href="https://imin2uk.com/{{ slug }}/">
   <link rel="alternate" hreflang="x-default" href="https://imin2uk.com/{{ slug }}/">
+  {% elif no_en_page %}
+  {# 영어 대응 페이지 없음 — ko만 선언, x-default도 자기 자신 #}
+  <link rel="alternate" hreflang="ko" href="https://imin2uk.com/{{ slug }}/">
+  <link rel="alternate" hreflang="x-default" href="https://imin2uk.com/{{ slug }}/">
   {% else %}
+  {# 한국어·영어 양쪽 존재 — 대칭 hreflang 선언 #}
   <link rel="alternate" hreflang="ko" href="https://imin2uk.com/{{ slug | replace('-en', '') }}/">
   <link rel="alternate" hreflang="en" href="https://imin2uk.com/{% if language == 'en' %}{{ slug }}{% else %}{{ slug }}-en{% endif %}/">
   <link rel="alternate" hreflang="x-default" href="https://imin2uk.com/{{ slug | replace('-en', '') }}/">
@@ -25,7 +31,7 @@
   <meta property="og:url" content="https://imin2uk.com/{{ slug }}/">
   <meta property="og:locale" content="{% if language == 'en' %}en_GB{% else %}ko_KR{% endif %}">
   <meta property="og:locale:alternate" content="{% if language == 'en' %}ko_KR{% else %}en_GB{% endif %}">
-  <meta property="og:type" content="article">
+  {# og:type article — 위 line 13에서 이미 선언됨, 중복 제거 #}
   <meta property="og:image" content="https://imin2uk.com/images/Imin2UK-home-intro2.webp">
   <meta property="twitter:image" content="https://imin2uk.com/images/Imin2UK-home-intro2.webp">
   <link href="/css/normalize.css" rel="stylesheet" type="text/css">

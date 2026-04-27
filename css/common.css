@@ -34,6 +34,18 @@
     font-size: 16px !important;
   }
 
+  /* 언어 전환 버튼: 국기 이미지와 텍스트를 나란히 정렬 */
+  .lang-switcher {
+    display: inline-flex !important;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .lang-flag {
+    border-radius: 2px;
+    flex-shrink: 0;
+  }
+
   /* HTML과 Body의 높이 제한을 강제로 풉니다 */
   html,
   body {

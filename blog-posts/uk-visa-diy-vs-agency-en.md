@@ -84,7 +84,7 @@ language: en
 
 <h3>Complex Work and Business Visas</h3>
 
-<p>Visas such as the <strong><a href="/skilled-worker-visa-en">Skilled Worker Visa</a></strong>, Spouse Visa, and various business-related visas involve multiple layers of requirements and documentation. The Skilled Worker Visa alone requires a Certificate of Sponsorship (CoS) from a licensed employer, compliance with occupation-specific salary thresholds, and correct occupation codes — all of which must align precisely. A spouse visa requires strict financial evidence and relationship documentation.</p>
+<p>Visas such as the Skilled Worker Visa, Spouse Visa, and various business-related visas involve multiple layers of requirements and documentation. The Skilled Worker Visa alone requires a Certificate of Sponsorship (CoS) from a licensed employer, compliance with occupation-specific salary thresholds, and correct occupation codes — all of which must align precisely. A spouse visa requires strict financial evidence and relationship documentation.</p>
 
 <p>These visas also carry <strong>higher application fees</strong>, which means that a minor error leading to refusal results in a significant financial loss — in addition to the long-term consequence of having a refusal on your immigration record. Any future visa applications, including simple visitor visas, may be affected by a previous refusal.</p>
 

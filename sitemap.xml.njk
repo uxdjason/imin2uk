@@ -82,9 +82,31 @@ eleventyExcludeFromCollections: true
   <!-- ===== 블로그 포스트 (Eleventy 컬렉션에서 자동 생성) ===== -->
 {%- for page in collections.all %}
   {%- if page.url and page.data.slug %}
+  {%- set slug = page.data.slug %}
+  {%- set lang = page.data.language %}
+  {%- set noKo = page.data.no_ko_page %}
+  {%- set noEn = page.data.no_en_page %}
+  {%- if lang == 'en' %}
+    {%- set koSlug = slug | replace('-en', '') %}
+    {%- set enSlug = slug %}
+  {%- else %}
+    {%- set koSlug = slug %}
+    {%- set enSlug = slug + '-en' %}
+  {%- endif %}
   <url>
-    <loc>https://imin2uk.com{{ page.url }}</loc>
+    <loc>https://imin2uk.com/{{ slug }}/</loc>
     <lastmod>{{ page.date.toISOString() }}</lastmod>
+    {%- if noKo %}
+    <xhtml:link rel="alternate" hreflang="en" href="https://imin2uk.com/{{ slug }}/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imin2uk.com/{{ slug }}/"/>
+    {%- elif noEn %}
+    <xhtml:link rel="alternate" hreflang="ko" href="https://imin2uk.com/{{ slug }}/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imin2uk.com/{{ slug }}/"/>
+    {%- else %}
+    <xhtml:link rel="alternate" hreflang="ko" href="https://imin2uk.com/{{ koSlug }}/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imin2uk.com/{{ enSlug }}/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imin2uk.com/{{ koSlug }}/"/>
+    {%- endif %}
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>

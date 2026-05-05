@@ -26,7 +26,7 @@ language: en
 
 <img class="blog-body-image" alt="UK Visa DIY vs Immigration Agency" src="/images/imin2uk-diy-vs-agency.webp" width="auto" height="auto" loading="auto">
 
-<h2>Not Every UK Visa Requires an Agency</h2>
+<h2>Not every UK visa requires an agency</h2>
 
 <p>Let us be clear from the outset: <strong>you do not need to use an immigration agency for every UK visa application.</strong> If you are able to identify the right visa category for your situation, understand the eligibility requirements, and gather the necessary documents, you are fully capable of submitting your own application.</p>
 
@@ -42,7 +42,7 @@ language: en
 
 <p>If you can read through the requirements, understand why each document is needed, and feel confident about gathering them — then go ahead and apply on your own. There is nothing stopping you.</p>
 
-<h2>Visas That Are Generally Manageable Without an Agency</h2>
+<h2>Visas that are generally manageable without an agency</h2>
 
 <p>Based on our experience, the following visa categories are ones that many applicants successfully handle independently:</p>
 
@@ -54,35 +54,35 @@ language: en
   <li><strong>Student Visa (degree programmes, without dependants)</strong> – Once your university or language school has issued your CAS (Confirmation of Acceptance for Studies) number, the rest of the application is relatively straightforward for solo applicants.</li>
 </ul>
 
-<h2>So Why Do People Still Use Agencies for These Visas?</h2>
+<h2>So why do people still use agencies for these visas?</h2>
 
 <p>Even for visa categories that are technically manageable on your own, a significant number of applicants choose to use a professional agency — and in most cases, there are very understandable reasons for this.</p>
 
-<h3>1. They Are Simply Too Busy</h3>
+<h3>1. They are simply too busy</h3>
 
 <p>Many applicants in their 20s and 30s lead extraordinarily busy lives. Even if they are fully capable of handling the application themselves, the time and mental energy required to carefully work through every detail can feel overwhelming on top of everything else. Delegating to a professional means they can focus on what they need to do — and simply receive a checklist of documents to provide.</p>
 
-<h3>2. English Language Barriers</h3>
+<h3>2. English language barriers</h3>
 
 <p>Reading official government guidance in English and fully understanding the implications of each requirement is not always easy, even for those who have travelled extensively. What looks simple to an experienced eye can feel like a wall to someone doing it for the first time.</p>
 
-<h3>3. Peace of Mind</h3>
+<h3>3. Peace of mind</h3>
 
 <p>Some applicants simply prefer to know that a professional is overseeing every detail. As one client put it: "I know I could probably do it myself, but I'd rather pay someone to make sure nothing goes wrong." That peace of mind has real value — especially when the stakes are high.</p>
 
-<h2>Situations Where We Strongly Recommend Using an Agency</h2>
+<h2>Situations where we strongly recommend using an agency</h2>
 
 <p>There are certain circumstances where we do not just recommend using a licensed immigration agency — we actively advise against applying alone.</p>
 
-<h3>Previous Visa Refusals or Immigration Issues</h3>
+<h3>Previous visa refusals or immigration issues</h3>
 
 <p>If you have ever had a visa refused, been deported, or had any immigration-related issue — whether in the UK, the US, Canada, Australia, New Zealand, or any EU country — this needs careful handling. We will first assess the severity of your case, determine whether an application is viable, and if so, prepare a detailed cover letter to address the history. Without this kind of professional intervention, the risk of refusal is significantly higher.</p>
 
-<h3>Degree Programmes with Dependant Family Members</h3>
+<h3>Degree programmes with dependant family members</h3>
 
 <p>If you are planning to come to the UK for a PhD or other degree programme and wish to bring your family with you, the application becomes considerably more complex. Visas such as YMS or short-term student visas do not permit dependants at all — but degree-level study visas may. Managing multiple applications alongside your own requires close attention to detail and an understanding of how each application interacts with the others.</p>
 
-<h3>Complex Work and Business Visas</h3>
+<h3>Complex work and business visas</h3>
 
 <p>Visas such as the Skilled Worker Visa, Spouse Visa, and various business-related visas involve multiple layers of requirements and documentation. The Skilled Worker Visa alone requires a Certificate of Sponsorship (CoS) from a licensed employer, compliance with occupation-specific salary thresholds, and correct occupation codes — all of which must align precisely. A spouse visa requires strict financial evidence and relationship documentation.</p>
 
@@ -92,7 +92,7 @@ language: en
 <p><strong>Attention to detail matters in every visa application.</strong> A misspelled name, a mismatched date, or a missing document can result in refusal. And every refusal becomes part of your permanent immigration history.</p>
 </blockquote>
 
-<h2>What Is the Cost Difference?</h2>
+<h2>What is the cost difference?</h2>
 
 <p>Regardless of whether you apply on your own or through a licensed agency, <strong>the fees paid directly to the UK Home Office remain exactly the same</strong>. Using an agency does not change your visa application fee or Immigration Health Surcharge. (Note: there may be some cost differences between applying from within the UK versus from South Korea, but this is unrelated to whether or not you use an agency.)</p>
 
@@ -104,7 +104,7 @@ language: en
   <li>At Imin2UK, our lowest professional fee is set for the YMS Working Holiday Visa, while our highest is for assisting UK companies in obtaining a Skilled Worker sponsorship licence to hire Korean nationals.</li>
 </ul>
 
-<h2>What Do You Actually Get from Using an Agency?</h2>
+<h2>What do you actually get from using an agency?</h2>
 
 <p>Beyond simply submitting your application, working with an experienced agency offers something that documentation alone cannot provide: <strong>strategic guidance on your immigration journey</strong>.</p>
 

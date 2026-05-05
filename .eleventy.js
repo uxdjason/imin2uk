@@ -6,6 +6,8 @@ module.exports = function(eleventyConfig) {
   // Also pass through fonts and robots.txt
   eleventyConfig.addPassthroughCopy("fonts");
   eleventyConfig.addPassthroughCopy("robots.txt");
+  // Pass through Cloudflare Pages redirect rules
+  eleventyConfig.addPassthroughCopy("_redirects");
   // Pass through sitemap XSL stylesheet
   eleventyConfig.addPassthroughCopy("sitemap.xsl");
 

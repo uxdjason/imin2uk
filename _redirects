@@ -1,0 +1,31 @@
+# Trailing slash canonicalization — 301 redirect no-slash → slash
+# Prevents Google from treating /blog and /blog/ as separate pages
+
+/en                         /en/                        301
+/blog                       /blog/                      301
+/blog-en                    /blog-en/                   301
+/contact                    /contact/                   301
+/contact-en                 /contact-en/                301
+/privacy-policy             /privacy-policy/            301
+/privacy-policy-en          /privacy-policy-en/         301
+/student-visa               /student-visa/              301
+/student-visa-en            /student-visa-en/           301
+/skilled-worker             /skilled-worker/            301
+/skilled-worker-en          /skilled-worker-en/         301
+/skilled-worker-strategy    /skilled-worker-strategy/   301
+/skilled-worker-strategy-en /skilled-worker-strategy-en/ 301
+/settlement                 /settlement/                301
+/settlement-en              /settlement-en/             301
+/global-business-mobility   /global-business-mobility/  301
+/global-business-mobility-en /global-business-mobility-en/ 301
+/hk-bno-visa-en             /hk-bno-visa-en/            301
+/graduate-visa              /graduate-visa/             301
+/graduate-visa-en           /graduate-visa-en/          301
+/high-potential-individual  /high-potential-individual/  301
+/high-potential-individual-en /high-potential-individual-en/ 301
+/youth-mobility-scheme      /youth-mobility-scheme/     301
+/youth-mobility-scheme-en   /youth-mobility-scheme-en/  301
+/yms-dos-and-donts          /yms-dos-and-donts/         301
+/yms-dos-and-donts-en       /yms-dos-and-donts-en/      301
+/uk-visa-diy-vs-agency      /uk-visa-diy-vs-agency/     301
+/uk-visa-diy-vs-agency-en   /uk-visa-diy-vs-agency-en/  301

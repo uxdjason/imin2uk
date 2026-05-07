@@ -11,3 +11,6 @@ _site/
 .env
 npm-debug.log*
 yarn-error.log*
+
+# 사용자 정의 references 폴더 및 하위 폴더와 파일들
+references/

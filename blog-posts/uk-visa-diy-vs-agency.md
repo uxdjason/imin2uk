@@ -45,9 +45,9 @@ language: ko
 <h3>혼자 신청 가능한 대표적인 비자 유형</h3>
 
 <ul>
-  <li><strong><a href="/youth-mobility-scheme">워홀 (YMS, Youth Mobility Scheme) 비자</a></strong>: 재정 증빙만 제대로 갖추면 되는 비교적 간단한 카테고리로, 실제로 혼자 신청하시는 분들이 많습니다.</li>
-  <li><strong><a href="/graduate-visa">졸업생 (Graduate) 비자</a></strong>: 영국 대학 졸업 후 신청하는 비자로 절차가 비교적 단순합니다.</li>
-  <li><strong><a href="/high-potential-individual">HPI (High Potential Individual) 비자</a></strong>: 조건만 충족된다면 신청 과정 자체가 복잡하지 않습니다.</li>
+  <li><strong><a href="/youth-mobility-scheme/">워홀 (YMS, Youth Mobility Scheme) 비자</a></strong>: 재정 증빙만 제대로 갖추면 되는 비교적 간단한 카테고리로, 실제로 혼자 신청하시는 분들이 많습니다.</li>
+  <li><strong><a href="/graduate-visa/">졸업생 (Graduate) 비자</a></strong>: 영국 대학 졸업 후 신청하는 비자로 절차가 비교적 단순합니다.</li>
+  <li><strong><a href="/high-potential-individual/">HPI (High Potential Individual) 비자</a></strong>: 조건만 충족된다면 신청 과정 자체가 복잡하지 않습니다.</li>
   <li><strong>단기 학생 비자 (어학연수)</strong>: 어학원 등록 후 필요한 서류만 준비하면 됩니다.</li>
   <li><strong>학생 비자 (동반가족 없이 혼자 학위 과정)</strong>: 학교에서 CAS(입학 허가 번호)만 잘 받아오시면 혼자 진행하시기에 무리가 없는 편입니다.</li>
 </ul>

@@ -40,7 +40,7 @@ language: en
 <ul>
 <li>You are under 26 years old</li>
 <li>You have recently completed, or are about to complete, a bachelor's, master's, or PhD degree at a UK university</li>
-<li>You are currently in the UK on a <strong><a href="/graduate-visa-en">Graduate Visa</a></strong></li>
+<li>You are currently in the UK on a <strong><a href="/graduate-visa-en/">Graduate Visa</a></strong></li>
 </ul>
 
 <p>If you search for UX Designer salaries in London on job portals like Indeed (uk.indeed.com), you will see that many positions already offer over £45,000, with Senior levels ranging from £60,000 to £70,000. This indicates that local market salaries comfortably meet the visa requirements for skilled immigration.</p>
@@ -51,7 +51,7 @@ language: en
 
 <h3>1. Job Seekers and Juniors Under 26</h3>
 
-<p>Breaking into the UK job market directly from overseas can be a daunting task for those with limited experience. In this case, we highly recommend utilizing the <strong><a href="/youth-mobility-scheme-en">Youth Mobility Scheme (YMS) Visa</a></strong>, commonly known as a working holiday.</p>
+<p>Breaking into the UK job market directly from overseas can be a daunting task for those with limited experience. In this case, we highly recommend utilizing the <strong><a href="/youth-mobility-scheme-en/">Youth Mobility Scheme (YMS) Visa</a></strong>, commonly known as a working holiday.</p>
 
 <p>This visa allows you to work freely in the UK for up to 2 years without needing a sponsor or meeting a minimum salary requirement. By gaining local experience, you can improve your CV and understand the UK market better. Transitioning to a Skilled Worker Visa by moving to a sponsoring company after building this local experience is the most realistic path. Even if you switch jobs after 2 years, as long as you are still under 26, you will continue to benefit from the lower New entrant salary threshold.</p>
 
@@ -63,13 +63,13 @@ language: en
 
 <h3>3. The Graduate Visa as a Stepping Stone</h3>
 
-<p>Even after successfully completing a degree in the UK, finding a sponsoring employer immediately can be challenging. This is where the <strong><a href="/graduate-visa-en">Graduate Visa</a></strong> acts as a reliable safety net. Bachelor's and Master's graduates are granted 2 years, while PhD graduates receive 3 years to work freely for any employer without sponsorship.</p>
+<p>Even after successfully completing a degree in the UK, finding a sponsoring employer immediately can be challenging. This is where the <strong><a href="/graduate-visa-en/">Graduate Visa</a></strong> acts as a reliable safety net. Bachelor's and Master's graduates are granted 2 years, while PhD graduates receive 3 years to work freely for any employer without sponsorship.</p>
 
 <p>During this period, you can prove your value to a company and negotiate for sponsorship, or use your gained experience to move to a company that can sponsor you. Even if you turn 26 while working on a Graduate Visa, you still qualify for the New entrant salary benefits when switching to a Skilled Worker Visa shortly before your Graduate Visa expires.</p>
 
 <h3>4. The HPI Visa for Top University Graduates</h3>
 
-<p>If you have graduated (or will graduate) within the last 5 years from an eligible top global university, you may qualify for the <strong><a href="/high-potential-individual-en">High Potential Individual (HPI) Visa</a></strong>. Similar to the Graduate Visa, this allows you to live and work freely in the UK for 2 (or 3) years without needing a sponsor or meeting a minimum salary.</p>
+<p>If you have graduated (or will graduate) within the last 5 years from an eligible top global university, you may qualify for the <strong><a href="/high-potential-individual-en/">High Potential Individual (HPI) Visa</a></strong>. Similar to the Graduate Visa, this allows you to live and work freely in the UK for 2 (or 3) years without needing a sponsor or meeting a minimum salary.</p>
 
 <h3>5. Mid-Level Professionals and Above</h3>
 

@@ -47,9 +47,9 @@ language: en
 <p>Based on our experience, the following visa categories are ones that many applicants successfully handle independently:</p>
 
 <ul>
-  <li><strong><a href="/youth-mobility-scheme-en">Youth Mobility Scheme (YMS) / Working Holiday Visa</a></strong> – As long as you provide proper proof of funds, this is one of the more straightforward visa categories. Many people do apply for this one on their own.</li>
-  <li><strong><a href="/graduate-visa-en">Graduate Visa</a></strong> – If you have completed your studies at a UK university, the application process is relatively simple.</li>
-  <li><strong><a href="/high-potential-individual-en">High Potential Individual (HPI) Visa</a></strong> – Graduates of eligible top global universities will find the requirements fairly clear-cut.</li>
+  <li><strong><a href="/youth-mobility-scheme-en/">Youth Mobility Scheme (YMS) / Working Holiday Visa</a></strong> – As long as you provide proper proof of funds, this is one of the more straightforward visa categories. Many people do apply for this one on their own.</li>
+  <li><strong><a href="/graduate-visa-en/">Graduate Visa</a></strong> – If you have completed your studies at a UK university, the application process is relatively simple.</li>
+  <li><strong><a href="/high-potential-individual-en/">High Potential Individual (HPI) Visa</a></strong> – Graduates of eligible top global universities will find the requirements fairly clear-cut.</li>
   <li><strong>Short-term Student Visa (for language courses)</strong> – Manageable independently for most applicants.</li>
   <li><strong>Student Visa (degree programmes, without dependants)</strong> – Once your university or language school has issued your CAS (Confirmation of Acceptance for Studies) number, the rest of the application is relatively straightforward for solo applicants.</li>
 </ul>

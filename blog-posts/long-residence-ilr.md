@@ -4,7 +4,7 @@ title: "영국 10년 영주권(Long Residence ILR) 신청 자격과 주의할 �
 seo_title: "영국 10년 영주권(Long Residence ILR) 신청 자격과 주의할 점 - 이민투유케이 Imin2UK"
 seo_description: "영국 10년 영주권(Long Residence ILR) 신청 자격, 해외 체류 일수 계산법, 연속 거주 단절 사유, 영어 요건까지 꼼꼼하게 정리했습니다. 이민투유케이 Imin2UK."
 h1: "영국 10년 영주권(Long Residence ILR) 신청 자격과 주의할 점"
-date: 2025-05-07T10:00:00Z
+date: 2026-05-07T10:00:00Z
 tags:
   - "10년 영주권"
   - "Long Residence ILR"
@@ -132,7 +132,12 @@ language: ko
   <li>취소·환불은 시험일로부터 최소 72시간 전에 해야 £50 환불 가능</li>
 </ul>
 
+<br/>
+<br/>
+
 <div class="blog-video-embed"><iframe width="560" height="315" src="https://www.youtube.com/embed/XU2QJj0e3Is?si=eA0LYM8BVo1OO40m" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
+<br/>
 
 <h2>10년 영주권 조건 미충족 시 대안</h2>
 

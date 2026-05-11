@@ -4,7 +4,7 @@ title: "UK 10-Year Long Residence ILR: Eligibility Requirements and Key Points t
 seo_title: "UK 10-Year Long Residence ILR Eligibility & Requirements - Imin2UK"
 seo_description: "Planning to apply for UK Indefinite Leave to Remain via Long Residence? Learn about the 10-year continuous residence rule, absence limits, English requirements, and common pitfalls. Imin2UK."
 h1: "UK 10-Year Long Residence ILR: Eligibility Requirements and Key Points to Know"
-date: 2025-05-07T10:01:00Z
+date: 2026-05-07T10:01:00Z
 tags:
   - "Long Residence ILR"
   - "UK Indefinite Leave to Remain"

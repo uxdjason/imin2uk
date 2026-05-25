@@ -150,8 +150,6 @@ language: en
 
 <p>For example, if you are bringing a spouse and one child, the total funds you must hold for a continuous 28-day period would be: £1,270 (yourself) + £285 (spouse) + £315 (first child) = <strong>£1,870 or more</strong>.</p>
 
-<div class="blog-video-embed"><iframe width="560" height="315" src="https://www.youtube.com/embed/Vc7eXVkNQwA?si=slwrEBuhpJG6T7AY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
-
 <h2>T2 Minister of Religion vs Religious Worker: What's the Difference?</h2>
 
 <p>UK immigration law includes another visa with a similar name: the <strong>Religious Worker visa</strong>. It is important to understand the distinction between the two.</p>

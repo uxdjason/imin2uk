@@ -1,7 +1,7 @@
 ---
 slug: "hk-bno-visa-en"
 title: "HK BN(O) Visa"
-seo_title: "HK BN(0) - UK IAA Authorised Immigration & Visa Agency - Imin2UK "
+seo_title: "UK HK BN(O) Visa Guide | IAA-Authorised Agency | Imin2UK"
 seo_description: "Learn how to apply for the UK BNO Visa from Hong Kong. This guide covers eligibility, required documents, application steps, and settlement rights."
 h1: "Hong Kong BN(O) Categories"
 date: 2026-01-05T11:12:00Z

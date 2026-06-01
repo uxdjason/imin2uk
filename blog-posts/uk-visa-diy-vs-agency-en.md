@@ -20,6 +20,7 @@ tags:
   - "Spouse Visa UK"
   - "UK Work Visa"
 language: en
+og_image: images/imin2uk-diy-vs-agency.webp
 ---
 
 <p>One of the most common questions we receive at Imin2UK is: <strong>"Do I really need to use an agency, or can I apply for my UK visa on my own?"</strong> It is a completely fair question — and one we are always happy to answer honestly. In this post, we will walk you through the reality of UK visa applications: which ones you can confidently handle yourself, and which ones truly benefit from professional guidance.</p>

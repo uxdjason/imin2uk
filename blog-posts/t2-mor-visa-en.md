@@ -23,6 +23,7 @@ tags:
   - "CEFR B2"
   - "UK Skilled Worker"
 language: en
+og_image: images/imin2uk-t2-mor-visa.webp
 ---
 
 <p>When people think of UK work visas, IT, healthcare, and engineering roles typically come to mind first. However, the UK immigration system includes a dedicated visa route specifically designed for religious leaders: the <strong>T2 Minister of Religion visa</strong>. If you are a pastor, priest, missionary, or member of a religious order currently active in ministry and considering expanding your work to the UK, this guide covers everything you need to know — from eligibility conditions and sponsorship requirements through to the path towards Indefinite Leave to Remain (ILR).</p>

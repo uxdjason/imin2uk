@@ -14,6 +14,7 @@ tags:
   - "UK Language Study"
   - "UK Visa Agency"
 language: en
+og_image: images/imin2uk-yms-dos-and-donts.webp
 ---
 
 <p>The UK Working Holiday visa, officially known as the Youth Mobility Scheme (YMS), is an incredibly useful visa that allows young nationals aged 18 to under 35 from eligible countries to live, work, and gain experience in the UK for up to 2 years.</p>

@@ -16,6 +16,7 @@ tags:
   - "영국 이민"
   - "영국 비자 에이전시"
 language: ko
+og_image: images/imin2uk-hpi-visa.webp
 ---
 
 

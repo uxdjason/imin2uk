@@ -18,6 +18,7 @@ tags:
   - "영국 이민 에이전시"
   - "이민투유케이"
 language: ko
+og_image: images/imin2uk-diy-vs-agency.webp
 ---
 
 <p>영국 이민에 관심을 가지고 저희 이민투유케이에 문의해 주시는 분들 중 상당수가 이런 질문을 하십니다. <strong>"이 비자, 혼자 해도 되나요?"</strong> 혹은 <strong>"에이전시에 맡기는 거랑 혼자 하는 거랑 뭐가 다른가요?"</strong></p>

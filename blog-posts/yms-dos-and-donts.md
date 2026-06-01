@@ -14,6 +14,7 @@ tags:
   - "영국 어학연수"
   - "영국 비자 에이전시"
 language: ko
+og_image: images/imin2uk-yms-dos-and-donts.webp
 ---
 
 <p>영국 워킹홀리데이, 정식 명칭으로 Youth Mobility Scheme (YMS) 비자는 만 18세 이상 35세 미만의 젊은 한국 국적자들에게 2년간 영국에서 자유롭게 취업하고 경험을 쌓을 수 있게 해주는 아주 유용한 비자입니다.</p>

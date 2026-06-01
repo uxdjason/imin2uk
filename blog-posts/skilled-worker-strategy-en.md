@@ -15,6 +15,7 @@ tags:
   - "UK Immigration"
   - "UK Visa Agency"
 language: en
+og_image: images/imin2uk-skilled-worker-example.webp
 ---
 
 <p>If you are feeling overwhelmed about how to prepare and apply for the UK Skilled Worker Visa, this guide will provide concrete employment strategies using a real-world example of a qualifying occupation. We will use the UX Designer role to explore actionable ways to achieve your UK immigration goals.</p>

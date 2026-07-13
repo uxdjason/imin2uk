@@ -1,4 +1,4 @@
----
+﻿---
 slug: "uk-spouse-visa-en"
 title: "UK Spouse Visa: Complete Guide to Requirements and Application (2026)"
 seo_title: "UK Spouse Visa Complete Guide 2026 - Requirements, Costs & ILR Path | Imin2UK"
@@ -24,7 +24,7 @@ og_image: images/imin2uk-uk-spouse-visa.webp
 
 <p>If your partner is a British citizen or holds Indefinite Leave to Remain (ILR) in the UK, and you wish to live together in the UK as a couple, the <strong>UK Spouse Visa</strong> is the route you need. This guide covers everything from basic eligibility and relationship requirements to financial thresholds, English language tests, application costs, and the eventual path to ILR — all in one place.</p>
 
-<img class="blog-body-image" alt="UK Spouse Visa Complete Guide" src="/images/imin2uk-uk-spouse-visa.webp" width="auto" height="auto" loading="auto">
+<img class="blog-body-image" alt="UK Spouse Visa Complete Guide" src="/images/imin2uk-uk-spouse-visa.webp" width="auto" height="auto" loading="lazy">
 
 <h2>What Is the UK Spouse Visa?</h2>
 

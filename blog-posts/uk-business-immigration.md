@@ -1,4 +1,4 @@
----
+﻿---
 slug: "uk-business-immigration"
 title: "영국 비즈니스 이민 완벽 가이드 – 사업 비자 3가지 경로 총정리"
 seo_title: "영국 비즈니스 이민 완벽 가이드 – 사업 비자 3가지 경로 총정리 | 이민투유케이 Imin2UK"
@@ -26,7 +26,7 @@ og_image: images/imin2uk-uk-business-immigration.webp
 
 <p>이번 글에서는 사업, 즉 자신만의 비즈니스로 영국에 진출하여 이민을 추진하는 방법 3가지를 총정리해 드립니다. 사업적 성공과 더불어 가족 모두와 함께 영국으로 이민하여 영주권을 취득하고 장기 정착으로 나아갈 수 있는 안전한 경로들을 하나씩 살펴보겠습니다.</p>
 
-<img class="blog-body-image" alt="영국 비즈니스 이민 사업 비자 경로 총정리" src="/images/imin2uk-uk-business-immigration.webp" width="auto" height="auto" loading="auto">
+<img class="blog-body-image" alt="영국 비즈니스 이민 사업 비자 경로 총정리" src="/images/imin2uk-uk-business-immigration.webp" width="auto" height="auto" loading="lazy">
 
 <h2>영국 비즈니스 이민 경로 3가지 한눈에 보기</h2>
 

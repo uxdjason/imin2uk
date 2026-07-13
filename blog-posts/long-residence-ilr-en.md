@@ -1,4 +1,4 @@
----
+﻿---
 slug: "long-residence-ilr-en"
 title: "UK 10-Year Long Residence ILR: Eligibility Requirements and Key Points to Know"
 seo_title: "UK 10-Year Long Residence ILR Eligibility & Requirements - Imin2UK"
@@ -24,7 +24,7 @@ og_image: images/69808c01fb0d4e332026ff86_Imin2UK-home-service-9-1024x683.webp
 
 <p>If you have been living in the UK for a long time, you may be considering applying for Indefinite Leave to Remain (ILR) through the Long Residence route — commonly referred to as the 10-year ILR. While the concept sounds straightforward, there are far more conditions to check than simply counting ten years of residence. This guide covers everything you need to know, from basic eligibility to the specific requirements and common pitfalls that can catch applicants off guard.</p>
 
-<img class="blog-body-image" alt="10 year based ILR" src="/images/69808c01fb0d4e332026ff86_Imin2UK-home-service-9-1024x683.webp" width="auto" height="auto" loading="auto">
+<img class="blog-body-image" alt="10 year based ILR" src="/images/69808c01fb0d4e332026ff86_Imin2UK-home-service-9-1024x683.webp" width="auto" height="auto" loading="lazy">
 
 <h2>Basic Eligibility: Three Core Conditions</h2>
 

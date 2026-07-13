@@ -1,4 +1,4 @@
----
+﻿---
 slug: "t2-mor-visa-en"
 title: "UK T2 Minister of Religion Visa: Complete Guide for Pastors, Missionaries & Religious Leaders"
 seo_title: "UK T2 Minister of Religion Visa Guide – Pastors, Missionaries & ILR Path | Imin2UK"
@@ -28,7 +28,7 @@ og_image: images/imin2uk-t2-mor-visa.webp
 
 <p>When people think of UK work visas, IT, healthcare, and engineering roles typically come to mind first. However, the UK immigration system includes a dedicated visa route specifically designed for religious leaders: the <strong>T2 Minister of Religion visa</strong>. If you are a pastor, priest, missionary, or member of a religious order currently active in ministry and considering expanding your work to the UK, this guide covers everything you need to know — from eligibility conditions and sponsorship requirements through to the path towards Indefinite Leave to Remain (ILR).</p>
 
-<img class="blog-body-image" alt="영국 종교인 비자 T2 Minister of Religion 완전 정리" src="/images/imin2uk-t2-mor-visa.webp" width="auto" height="auto" loading="auto">
+<img class="blog-body-image" alt="영국 종교인 비자 T2 Minister of Religion 완전 정리" src="/images/imin2uk-t2-mor-visa.webp" width="auto" height="auto" loading="lazy">
 
 <h2>What Is the T2 Minister of Religion Visa?</h2>
 

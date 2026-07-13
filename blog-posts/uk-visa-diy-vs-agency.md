@@ -1,4 +1,4 @@
----
+﻿---
 slug: "uk-visa-diy-vs-agency"
 title: "영국 비자 혼자 신청 vs 에이전시 의뢰 - 무엇이 나에게 맞을까?"
 seo_title: "영국 비자 혼자 신청 vs 에이전시 의뢰, 뭐가 다를까? - 이민투유케이 Imin2UK"
@@ -25,7 +25,7 @@ og_image: images/imin2uk-diy-vs-agency.webp
 
 <p>이민 에이전시를 운영하는 입장에서 어떻게든 수속 의뢰를 권유할 수도 있겠지만, 현실을 있는 그대로 정직하게 말씀드리는 것이 맞다고 생각합니다. 이번 글에서는 영국 비자를 스스로 신청할 수 있는 경우와 전문가의 도움이 필요한 경우, 그리고 비용 차이는 어떻게 되는지에 대해 솔직하게 이야기해 드리겠습니다.</p>
 
-<img class="blog-body-image" alt="UK Visa DIY vs Immigration Agency" src="/images/imin2uk-diy-vs-agency.webp" width="auto" height="auto" loading="auto">
+<img class="blog-body-image" alt="UK Visa DIY vs Immigration Agency" src="/images/imin2uk-diy-vs-agency.webp" width="auto" height="auto" loading="lazy">
 
 <h2>혼자서 준비해도 무방한 영국 비자</h2>
 

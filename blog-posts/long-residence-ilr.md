@@ -1,4 +1,4 @@
----
+﻿---
 slug: "long-residence-ilr"
 title: "영국 10년 영주권(Long Residence ILR) 신청 자격과 주의할 점"
 seo_title: "영국 10년 영주권(Long Residence ILR) 신청 자격과 주의할 점 - 이민투유케이 Imin2UK"
@@ -24,7 +24,7 @@ og_image: images/69808c01fb0d4e332026ff86_Imin2UK-home-service-9-1024x683.webp
 
 <p>영국에서 오랜 시간 합법적으로 거주해 오신 분들 중 10년 영주권, 공식 명칭으로는 <strong>Long Residence ILR</strong> 신청을 준비하고 계신 분들이 꽤 많습니다. 하지만 단순히 10년만 채우면 되는 게 아니라, 생각보다 따져봐야 할 조건들이 많습니다. 이번 글에서는 기본 자격 조건부터 자주 실수하는 주의사항까지 꼼꼼하게 정리해 드립니다.</p>
 
-<img class="blog-body-image" alt="영국 10년 영주권" src="/images/69808c01fb0d4e332026ff86_Imin2UK-home-service-9-1024x683.webp" width="auto" height="auto" loading="auto">
+<img class="blog-body-image" alt="영국 10년 영주권" src="/images/69808c01fb0d4e332026ff86_Imin2UK-home-service-9-1024x683.webp" width="auto" height="auto" loading="lazy">
 
 <h2>기본 신청 자격 - 10년 연속 거주</h2>
 

@@ -1,4 +1,4 @@
----
+﻿---
 slug: "yms-dos-and-donts"
 title: "영국 워홀 YMS 비자: 할 수 있는 일과 없는 일 (Do's and Don'ts)"
 seo_title: "영국 워홀 YMS 비자로 할 수 있는 일과 없는 일 (Do's and Don'ts) - 이민투유케이 Imin2UK"
@@ -21,7 +21,7 @@ og_image: images/imin2uk-yms-dos-and-donts.webp
 
 <p>영주권으로 직접 이어지거나 연장이 가능하지는 않지만, 다른 영국 취업 비자나 학생 비자 등으로 전환이 가능하기 때문에 향후 영국 정착을 위한 디딤돌로 활용하기 매우 좋습니다. 이번 글에서는 YMS 비자를 받아 영국에 입국했을 때, 합법적으로 할 수 있는 일과 할 수 없는 일 (Do's and Don'ts)에 대해 자세히 알아보겠습니다.</p>
 
-<img class="blog-body-image" alt="영국 워홀 YMS 비자 Do's and Don'ts" src="/images/imin2uk-yms-dos-and-donts.webp" width="auto" height="auto" loading="auto">
+<img class="blog-body-image" alt="영국 워홀 YMS 비자 Do's and Don'ts" src="/images/imin2uk-yms-dos-and-donts.webp" width="auto" height="auto" loading="lazy">
 
 <h2>1. 취업 및 구직 활동: 일반 고용은 매우 자유롭습니다</h2>
 

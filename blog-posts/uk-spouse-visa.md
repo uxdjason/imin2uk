@@ -1,4 +1,4 @@
----
+﻿---
 slug: "uk-spouse-visa"
 title: "영국 배우자 비자 신청 완벽 가이드 (자격 요건·재정·비용·영주권까지)"
 seo_title: "영국 배우자 비자 신청 완벽 가이드 (자격 요건·재정·비용·영주권) - 이민투유케이 Imin2UK"
@@ -24,7 +24,7 @@ og_image: images/imin2uk-uk-spouse-visa.webp
 
 <p>영국 시민권자나 영주권자와 결혼하셨거나, 한국 혹은 다른 나라에서 영국인과 인연을 맺어 배우자 혹은 동거인 자격으로 영국에 함께 들어가 살고 싶으신 분들을 위해, 이번 글에서는 영국 배우자 비자의 자격 요건부터 재정 조건, 영어 요건, 신청 비용, 영주권 경로까지 전반적인 내용을 정리해 드리겠습니다.</p>
 
-<img class="blog-body-image" alt="영국 배우자 비자 신청 완벽 가이드" src="/images/imin2uk-uk-spouse-visa.webp" width="auto" height="auto" loading="auto">
+<img class="blog-body-image" alt="영국 배우자 비자 신청 완벽 가이드" src="/images/imin2uk-uk-spouse-visa.webp" width="auto" height="auto" loading="lazy">
 
 <h2>영국 배우자 비자란?</h2>
 

@@ -1,4 +1,4 @@
----
+﻿---
 slug: "skilled-worker-strategy-en"
 title: "UK Skilled Worker Visa Strategy (UX Designer Example)"
 seo_title: "UK Skilled Worker Visa Strategy (UX Designer) - Imin2UK"
@@ -20,7 +20,7 @@ og_image: images/imin2uk-skilled-worker-example.webp
 
 <p>If you are feeling overwhelmed about how to prepare and apply for the UK Skilled Worker Visa, this guide will provide concrete employment strategies using a real-world example of a qualifying occupation. We will use the UX Designer role to explore actionable ways to achieve your UK immigration goals.</p>
 
-<img class="blog-body-image" alt="UK Skilled Worker Visa Example" src="/images/imin2uk-skilled-worker-example.webp" width="auto" height="auto" loading="auto">
+<img class="blog-body-image" alt="UK Skilled Worker Visa Example" src="/images/imin2uk-skilled-worker-example.webp" width="auto" height="auto" loading="lazy">
 
 <h2>Checking Your Occupation Code (UX Designer Example)</h2>
 

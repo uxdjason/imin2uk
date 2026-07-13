@@ -1,4 +1,4 @@
----
+﻿---
 slug: "skilled-worker-strategy"
 title: "영국 취업 이민 Skilled Worker 비자 전략 (UX 디자이너 예시)"
 seo_title: "영국 취업 이민 Skilled Worker 비자 전략 (UX 디자이너) - 이민투유케이 Imin2UK"
@@ -21,7 +21,7 @@ og_image: images/imin2uk-skilled-worker-example.webp
 
 <p>영국 Skilled Worker 취업 이민 비자에 대해 어떻게 준비하고 지원해야 할지 막막하신 분들을 위해, 이번 글에서는 실제 영국으로 취업 이민이 가능한 직업군을 골라 구체적인 취업 전략을 소개하려고 합니다. UX 디자이너 (사용자경험 디자이너) 직업군을 예시로 들어 살펴보겠습니다.</p>
 
-<img class="blog-body-image" alt="영국 취업 이민 Skilled Worker 비자 예시" src="/images/imin2uk-skilled-worker-example.webp" width="auto" height="auto" loading="auto">
+<img class="blog-body-image" alt="영국 취업 이민 Skilled Worker 비자 예시" src="/images/imin2uk-skilled-worker-example.webp" width="auto" height="auto" loading="lazy">
 
 <h2>관련 직업군 분류 및 접근 (UX 디자이너 예시)</h2>
 

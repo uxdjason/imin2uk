@@ -1,4 +1,4 @@
----
+﻿---
 slug: "t2-mor-visa"
 title: "영국 종교인 비자 완전 정리 | 영주권까지 가능한 T2 Minister of Religion 루트"
 seo_title: "영국 종교인 비자 T2 Minister of Religion 완전 정리 - 이민투유케이 Imin2UK"
@@ -27,7 +27,7 @@ og_image: images/imin2uk-t2-mor-visa.webp
 
 <p>영국 이민이라고 하면 보통 IT, 의료, 엔지니어링 같은 일반 직종의 취업이민을 먼저 떠올리시는 분들이 많습니다. 그런데 사실 영국에는 종교 지도자들을 위한 별도의 비자 경로가 마련되어 있습니다. 현재 한국에서 목사, 신부, 선교사, 혹은 수도회에서 활동하고 계신 분들이나 앞으로 영국에서 종교 사역을 하고 싶으신 분들께 직접적으로 해당되는 내용입니다. 이번 글에서는 영국 T2 Minister of Religion 비자의 핵심 조건부터 스폰서 요건, 영주권 경로까지 하나씩 정리해 드리겠습니다.</p>
 
-<img class="blog-body-image" alt="영국 종교인 비자 T2 Minister of Religion 완전 정리" src="/images/imin2uk-t2-mor-visa.webp" width="auto" height="auto" loading="auto">
+<img class="blog-body-image" alt="영국 종교인 비자 T2 Minister of Religion 완전 정리" src="/images/imin2uk-t2-mor-visa.webp" width="auto" height="auto" loading="lazy">
 
 <h2>T2 Minister of Religion 비자란?</h2>
 

@@ -1,4 +1,4 @@
----
+﻿---
 slug: "uk-business-immigration-en"
 title: "How to Start a Business and Immigrate to the UK in 2026"
 seo_title: "UK Business Immigration Guide 2026: GBM, Self-Sponsorship & Innovator Founder - Imin2UK"
@@ -26,7 +26,7 @@ og_image: images/imin2uk-uk-business-immigration.webp
 
 <p>In this guide, we will walk you through three main pathways for those looking to enter the UK through their own business: the <strong>GBM UK Expansion Worker</strong> route for established Korean companies expanding into the UK, the <strong>Self-Sponsorship</strong> methodology for those looking to set up a new business in the UK, and the <strong>Innovator Founder Visa</strong> for those with a truly original business idea. We will also cover how each route leads to permanent residence so that you and your family can settle in the UK for the long term.</p>
 
-<img class="blog-body-image" alt="UK Business Immigration Routes 2026" src="/images/imin2uk-uk-business-immigration.webp" width="auto" height="auto" loading="auto">
+<img class="blog-body-image" alt="UK Business Immigration Routes 2026" src="/images/imin2uk-uk-business-immigration.webp" width="auto" height="auto" loading="lazy">
 
 <h2>Route 1: GBM UK Expansion Worker</h2>
 

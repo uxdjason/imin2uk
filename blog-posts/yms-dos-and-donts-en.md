@@ -1,4 +1,4 @@
----
+﻿---
 slug: "yms-dos-and-donts-en"
 title: "UK Youth Mobility Scheme (YMS) Visa: Do's and Don'ts"
 seo_title: "UK YMS Visa: Do's and Don'ts for Working Holidays - Imin2UK"
@@ -21,7 +21,7 @@ og_image: images/imin2uk-yms-dos-and-donts.webp
 
 <p>While it does not lead directly to settlement and cannot be extended, it can be switched to other visa categories such as the Skilled Worker Visa or Student Visa, making it an excellent stepping stone for long-term settlement in the UK. In this article, we will take a detailed look at the legal Do's and Don'ts once you enter the UK on a YMS visa.</p>
 
-<img class="blog-body-image" alt="UK YMS Visa Do's and Don'ts" src="/images/imin2uk-yms-dos-and-donts.webp" width="auto" height="auto" loading="auto">
+<img class="blog-body-image" alt="UK YMS Visa Do's and Don'ts" src="/images/imin2uk-yms-dos-and-donts.webp" width="auto" height="auto" loading="lazy">
 
 <h2>1. Employment and Job Searching: General Employment is Highly Flexible</h2>
 

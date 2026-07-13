@@ -2167,7 +2167,7 @@ figcaption {
 .hero-text {
   color: var(--text-color--text-alternate);
   text-align: left;
-  width: 75%;
+  width: 70%;
   min-width: auto;
   font-size: 4.3rem;
   font-weight: 700;
@@ -2230,7 +2230,7 @@ figcaption {
 
 .heading {
   font-size: 2.8rem;
-  line-height: 0.6;
+  line-height: 1;
 }
 
 .section_home_slider {

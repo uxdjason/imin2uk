@@ -57,11 +57,13 @@
 
 html {
   height: 100%;
+  overflow-x: hidden;
 }
 
 body {
   margin: 0;
   min-height: 100%;
+  overflow-x: hidden;
   background-color: #fff;
   font-family: Arial, sans-serif;
   font-size: 14px;
@@ -2430,7 +2432,6 @@ figcaption {
   flex-flow: column;
   justify-content: center;
   align-items: flex-start;
-  max-height: 20rem;
   display: block;
 }
 
@@ -3296,7 +3297,12 @@ figcaption {
 
   .hero-text {
     width: 100%;
-    font-size: 3rem;
+    font-size: 2.2rem;
+  }
+
+  .heading-style-h1.is-blog-heading,
+  .heading-style-h1.is-contact-h1 {
+    font-size: 2.2rem;
   }
 
   .text-block-5 {
@@ -3640,6 +3646,7 @@ p {
 .blog-body-image {
   width: 100%;
   max-width: 100%;
+  height: auto;
   max-height: 480px;
   object-fit: cover;
   border-radius: 8px;

@@ -2,7 +2,7 @@
 slug: "gbm-uk-expansion-worker"
 title: "영국 사업 이민 GBM UK Expansion Worker 비자 완벽 가이드"
 seo_title: "영국 사업 이민 GBM UK Expansion Worker 비자 완벽 가이드 - 이민투유케이 Imin2UK"
-seo_description: "한국 사업체를 영국으로 확장하는 GBM UK Expansion Worker 비자의 스폰서 라이선스 조건, 비자 요건, 영주권 전환 전략까지 한눈에 정리했습니다. 이민투UK Imin2UK."
+seo_description: "한국 사업체를 영국으로 확장하는 GBM UK Expansion Worker 비자의 스폰서 라이선스 조건, 비자 요건, 영주권 전환 전략까지 한눈에 정리했습니다. 이민투유케이 Imin2UK."
 h1: "영국 사업 이민 GBM UK Expansion Worker 비자 완벽 가이드"
 date: 2026-07-01T14:45:00Z
 tags:
@@ -128,6 +128,6 @@ og_image: images/imin2uk-gbm-uk-expansion-worker.webp
 
 <p>GBM UK Expansion Worker 루트는 한국에서 이미 검증된 비즈니스 모델을 영국으로 가져와 확장하려는 분들에게 매우 적합한 사업 이민 경로입니다. 개인이 영국 기업에 취업하는 방식이 아니라 <strong>내 사업을 영국으로 가져오는 방식</strong>이기 때문에, 접근 방식 자체가 다릅니다.</p>
 
-<p>저희 이민투UK Imin2UK는 GBM UK Expansion Worker 루트를 위한 스폰서 라이선스 신청, 영국 법인 설립 대행, 대표님 본인 및 동반 가족과 파견 직원들에 대한 비자 수속, 그리고 이후 Skilled Worker 라이선스 전환까지 장기적인 타임라인과 전략을 바탕으로 종합적으로 지원해 드립니다. 처음 영국으로의 비즈니스 확장부터 대표님과 가족 분들의 영국 영주권 달성까지 함께하겠습니다.</p>
+<p>저희 이민투유케이 Imin2UK는 GBM UK Expansion Worker 루트를 위한 스폰서 라이선스 신청, 영국 법인 설립 대행, 대표님 본인 및 동반 가족과 파견 직원들에 대한 비자 수속, 그리고 이후 Skilled Worker 라이선스 전환까지 장기적인 타임라인과 전략을 바탕으로 종합적으로 지원해 드립니다. 처음 영국으로의 비즈니스 확장부터 대표님과 가족 분들의 영국 영주권 달성까지 함께하겠습니다.</p>
 
-<p>영국으로의 사업 이민에 관해 궁금한 점이 있으시다면, 아직 검토 단계이신 분들도 부담 없이 이민투UK에 문의해 주시기 바랍니다.</p>
+<p>영국으로의 사업 이민에 관해 궁금한 점이 있으시다면, 아직 검토 단계이신 분들도 부담 없이 이민투유케이에 문의해 주시기 바랍니다.</p>

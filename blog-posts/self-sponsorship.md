@@ -4,7 +4,7 @@ title: "영국 셀프스폰서십(Self-Sponsorship) 사업 이민, 정말 가능
 seo_title: "영국 셀프스폰서십 사업 이민, 정말 가능한가? - 이민투유케이 Imin2UK"
 seo_description: "영국 셀프스폰서십 비자, 실제로 존재할까요? 원리부터 가능한 경우와 불가능한 경우, 스폰서십 라이선스 조건까지 꼼꼼히 정리했습니다. 이민투유케이 Imin2UK."
 h1: "영국 셀프스폰서십(Self-Sponsorship) 사업 이민, 정말 가능한가?"
-date: 2025-07-12T09:58:00Z
+date: 2026-07-12T09:58:00Z
 tags:
   - "셀프스폰서십"
   - "self-sponsorship"
